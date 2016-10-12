@@ -1,0 +1,56 @@
+
+p {
+  color:#60615D;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9em;
+}
+
+h1{
+  color:#000000;
+  font-family: 'open sans', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  color: #000000;
+  font-family:'Josefin Sans', sans-serif;
+  font-weight: lighter;
+}
+
+
+body{
+  background-color:#fff;
+}
+
+#container{
+  width:95%;
+  background-color:#F5F5F5;
+  margin:0 auto;
+}
+
+#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 14%;
+}
+
+#nav a:link, a:visited {
+  display: block;
+  color: #FFF;
+  background-color: #242075;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px;
+  font-family: 'Playfair Display', serif;
+ }
+
+ #nav a:hover, a:active {
+   background-color: #BFBCAE;
+ }
