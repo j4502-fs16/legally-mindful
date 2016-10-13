@@ -1,13 +1,13 @@
 
 p {
   color:#60615D;
-  font-family: 'Playfair Display', serif;
-  font-size: 0.9em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2rem;
 }
 
 h1{
   color:#000000;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ body{
   margin: 0;
   padding: 0;
   width: 14%;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #nav a:link, a:visited {
@@ -49,9 +49,14 @@ body{
   font-weight: bold;
   text-decoration: none;
   padding: 4px;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
  }
 
  #nav a:hover, a:active {
    background-color: #BFBCAE;
+ }
+
+ #footer {
+   font-family:'Crimson Text', serif;
+   font-size: 0.9rem;
  }
