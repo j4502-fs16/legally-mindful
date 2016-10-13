@@ -38,6 +38,7 @@ body{
   margin: 0;
   padding: 0;
   width: 14%;
+  font-family: 'open sans', sans-serif;
 }
 
 #nav a:link, a:visited {
@@ -48,7 +49,7 @@ body{
   font-weight: bold;
   text-decoration: none;
   padding: 4px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'open sans', sans-serif;
  }
 
  #nav a:hover, a:active {
