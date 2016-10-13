@@ -1,6 +1,6 @@
 
 p {
-  color:#60615D;
+  color:#000000;
   font-family: 'Crimson Text', serif;
   font-size: 1.2rem;
 }
@@ -9,11 +9,12 @@ h1{
   color:#000000;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 h2{
   color: #000000;
-  font-family:'Josefin Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-weight: lighter;
 }
 
