@@ -49,7 +49,6 @@ body{
 }
 
 #nav a:link, a:visited {
-  display: block;
   color: #FFF;
   background-color: #242075;
   text-align: center;
