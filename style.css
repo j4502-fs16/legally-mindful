@@ -1,9 +1,9 @@
 
+
 p {
   color:#000000;
   font-family: 'Crimson Text', serif;
   font-size: 1.2rem;
-  margin: 10px 0 0;
 }
 
 h1{
@@ -12,8 +12,6 @@ h1{
   font-weight: lighter;
   color: #242075;
   font-size: 2rem;
-  text-align: center;
-  padding-top: 50px;
 
 }
 
@@ -23,27 +21,24 @@ h2{
   font-weight: 600;
   color: #242075;
   font-size: 1.7rem;
-  text-align: center;
+
 }
+
 
 body{
-  margin: 50px 0 0;
-  background-color:#fff;
-}
 
-img {
-   width: 200px;
-   border: 1px;
+  background-color:#fff;
 }
 
 #container{
   width:95%;
   background-color:white;
-  margin:0;
+  margin:0 auto;
 }
 
 #nav {
   padding:0;
+
 }
 
 #nav li {
@@ -53,7 +48,7 @@ img {
   padding: 0;
   width: 14%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
+  font-size: .8rem;
 }
 
 #nav a:link, a:visited {
@@ -64,7 +59,7 @@ img {
   text-decoration: none;
   padding: 4px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
+  font-size: .8rem;
  }
 
  #nav a:hover, a:active {
@@ -73,9 +68,30 @@ img {
 
 /*do I even need the #about and #founders stuff? Trying to style for my about page*/
 
+ #about p {
+   color:#000000;
+   font-family: 'Crimson Text', serif;
+   font-size: 1.2rem;
+   margin: 1px;
+   padding-bottom: 2px;
+ }
+
+  #founders p {
+    color:#000000;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding-bottom: 2px;
+  }
+
  #footer p {
    font-family:'Crimson Text', serif;
+<<<<<<< HEAD
+   font-size: 0.9rem;
+
+=======
    font-size: 0.5rem;
+>>>>>>> origin/master
  }
 
  .active {
@@ -83,5 +99,7 @@ img {
 }
 
 ul {
+    position: fixed;
+    top: 0;
     width: 100%;
 }
