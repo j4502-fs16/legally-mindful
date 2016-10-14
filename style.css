@@ -65,4 +65,15 @@ body{
  #footer {
    font-family:'Crimson Text', serif;
    font-size: 0.9rem;
+
  }
+
+ .active {
+    background-color: #4CAF50;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
