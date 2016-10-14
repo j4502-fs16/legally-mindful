@@ -27,7 +27,7 @@ h2{
 }
 
 body{
-  margin: 50px 0 0; 
+  margin: 50px 0 0;
   background-color:#fff;
 }
 
@@ -54,7 +54,7 @@ img {
   padding: 0;
   width: 14%;
   font-family: 'Open Sans', sans-serif;
-  font-size: .8rem;
+  font-size: 100%;
 }
 
 #nav a:link, a:visited {
@@ -65,7 +65,7 @@ img {
   text-decoration: none;
   padding: 4px;
   font-family: 'Open Sans', sans-serif;
-  font-size: .8rem;
+  font-size: 100%;
  }
 
  #nav a:hover, a:active {
