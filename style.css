@@ -3,6 +3,7 @@ p {
   color:#000000;
   font-family: 'Crimson Text', serif;
   font-size: 1.2rem;
+  margin: 10px 0 0;
 }
 
 h1{
@@ -11,6 +12,8 @@ h1{
   font-weight: lighter;
   color: #242075;
   font-size: 2rem;
+  text-align: center;
+  padding-top: 50px;
 
 }
 
@@ -20,12 +23,16 @@ h2{
   font-weight: 600;
   color: #242075;
   font-size: 1.7rem;
-
+  text-align: center;
 }
-
 
 body{
   background-color:#fff;
+}
+
+img {
+   width: 200px;
+   border: 1px;
 }
 
 #container{
@@ -64,22 +71,6 @@ body{
  }
 
 /*do I even need the #about and #founders stuff? Trying to style for my about page*/
-
- #about p {
-   color:#000000;
-   font-family: 'Crimson Text', serif;
-   font-size: 1.2rem;
-   margin: 1px;
-   padding-bottom: 2px;
- }
-
-  #founders p {
-    color:#000000;
-    font-family: 'Crimson Text', serif;
-    font-size: 1.2rem;
-    margin: 1px;
-    padding-bottom: 2px;
-  }
 
  #footer p {
    font-family:'Crimson Text', serif;
