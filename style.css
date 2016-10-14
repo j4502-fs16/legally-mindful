@@ -28,7 +28,7 @@ body{
 
 #container{
   width:95%;
-  background-color:#F5F5F5;
+  background-color:white;
   margin:0 auto;
 }
 
@@ -43,6 +43,7 @@ body{
   padding: 0;
   width: 14%;
   font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
 }
 
 #nav a:link, a:visited {
@@ -54,6 +55,7 @@ body{
   text-decoration: none;
   padding: 4px;
   font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
  }
 
  #nav a:hover, a:active {
