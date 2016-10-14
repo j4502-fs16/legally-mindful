@@ -62,7 +62,25 @@ body{
    background-color: #BFBCAE;
  }
 
- #footer {
+ #about {
+   color:#000000;
+   font-family: 'Crimson Text', serif;
+   font-size: 1.2rem;
+   margin: 1px;
+   padding-bottom: 2px;
+ }
+
+
+  #founders p {
+    color:#000000;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+    margin: 1px;
+    padding-bottom: 2px;
+  }
+
+
+ #footer p {
    font-family:'Crimson Text', serif;
    font-size: 0.9rem;
  }
