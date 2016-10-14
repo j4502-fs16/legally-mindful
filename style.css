@@ -11,6 +11,7 @@ h1{
   font-weight: lighter;
   color: #242075;
   font-size: 2rem;
+
 }
 
 h2{
@@ -19,6 +20,7 @@ h2{
   font-weight: 600;
   color: #242075;
   font-size: 1.7rem;
+
 }
 
 
@@ -62,14 +64,15 @@ body{
    background-color: #BFBCAE;
  }
 
- #about {
+/*do I even need the #about and #founders stuff? Trying to style for my about page*/
+
+ #about p {
    color:#000000;
    font-family: 'Crimson Text', serif;
    font-size: 1.2rem;
    margin: 1px;
    padding-bottom: 2px;
  }
-
 
   #founders p {
     color:#000000;
@@ -79,8 +82,7 @@ body{
     padding-bottom: 2px;
   }
 
-
  #footer p {
    font-family:'Crimson Text', serif;
-   font-size: 0.9rem;
+   font-size: 0.5rem;
  }
