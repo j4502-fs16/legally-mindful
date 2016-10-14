@@ -27,6 +27,7 @@ h2{
 }
 
 body{
+  margin: 50px 0 0; 
   background-color:#fff;
 }
 
@@ -42,7 +43,8 @@ img {
 }
 
 #nav {
-  padding: 0;
+  padding:0;
+
 }
 
 #nav li {
