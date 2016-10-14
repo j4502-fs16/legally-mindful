@@ -58,13 +58,14 @@ body{
   text-align: center;
   font-weight: bold;
   text-decoration: none;
-  padding: 4px;
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
  }
 
  #nav a:hover, a:active {
    background-color: #BFBCAE;
+   width: 100%;
+   font-weight: bold;
  }
 
 /*do I even need the #about and #founders stuff? Trying to style for my about page*/
