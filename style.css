@@ -39,12 +39,11 @@ img {
 #container{
   width:95%;
   background-color:white;
-  margin:0 auto;
+  margin:0;
 }
 
 #nav {
   padding:0;
-
 }
 
 #nav li {
@@ -89,7 +88,5 @@ img {
 }
 
 ul {
-    position: fixed;
-    top: 0;
     width: 100%;
 }
