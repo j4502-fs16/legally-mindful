@@ -1,9 +1,9 @@
 
-
 p {
   color:#000000;
   font-family: 'Crimson Text', serif;
   font-size: 1.2rem;
+  margin: 10px 0 0;
 }
 
 h1{
@@ -12,6 +12,8 @@ h1{
   font-weight: lighter;
   color: #242075;
   font-size: 2rem;
+  text-align: center;
+  padding-top: 50px;
 
 }
 
@@ -21,15 +23,48 @@ h2{
   font-weight: 600;
   color: #242075;
   font-size: 1.7rem;
-
+  text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
 
+>>>>>>> Stashed changes
 body{
-
+  margin: 50px 0 0;
   background-color:#fff;
 }
 
+img {
+   width: 200px;
+   border: 1px;
+}
+.button {
+  background-color: #242075;
+  color: #FFF;
+  float: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 40px;
+  -moz-border-radius: 80px;
+  -webkit-border-radius: 80px;
+}
+
+
+.button a:link, a:visited {
+  color: #FFF;
+  background-color: #242075;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+ }
+.button a:hover, a:active {
+   background-color: #BFBCAE;
+ }
 #container{
   width:95%;
   background-color:white;
@@ -42,15 +77,14 @@ body{
 }
 
 #nav li {
-    list-style-type: none;
-    /*float: left;*/
-    margin: 10px;
-    padding: 10px;
-  background-color: #242075;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: .8rem;
-  }
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 14%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+}
 
 #nav a:link, a:visited {
   color: #FFF;
@@ -70,25 +104,14 @@ body{
 
 /*do I even need the #about and #founders stuff? Trying to style for my about page*/
 
- #about p {
-   color:#000000;
-   font-family: 'Crimson Text', serif;
-   font-size: 1.2rem;
-   margin: 1px;
-   padding-bottom: 2px;
- }
-
-  #founders p {
-    color:#000000;
-    font-family: 'Crimson Text', serif;
-    font-size: 1.2rem;
-    margin: 1px;
-    padding-bottom: 2px;
-  }
-
  #footer p {
    font-family:'Crimson Text', serif;
+<<<<<<< HEAD
    font-size: 0.9rem;
+
+=======
+   font-size: 0.5rem;
+>>>>>>> origin/master
  }
 
  .active {
@@ -96,5 +119,7 @@ body{
 }
 
 ul {
+    position: fixed;
+    top: 0;
     width: 100%;
 }
