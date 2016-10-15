@@ -116,6 +116,11 @@ img {
 
  .active {
     background-color: #4CAF50;
+  }
+
+    #mission p {
+      width: 100%;
+    }
 }
 
 ul {
