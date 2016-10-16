@@ -46,6 +46,13 @@ height: auto;
 
 }
 
+#abouttree{
+float: right;
+margin: 0 0 10px 10px;
+display: block;
+margin: auto;
+width: 50%;
+}
 .button {
   background-color: #242075;
   color: #FFF;
