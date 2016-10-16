@@ -36,9 +36,16 @@ body{
 }
 
 img {
-   width: 200px;
+   max-width: 200%;
    border: 1px;
 }
+
+#mission{
+max-width: 100%;
+height: auto;
+
+}
+
 .button {
   background-color: #242075;
   color: #FFF;
