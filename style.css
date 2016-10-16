@@ -33,9 +33,6 @@ body{
 }
 
 
-
-
-
 #mission{
 max-width: 100%;
 height: auto;
@@ -47,7 +44,7 @@ align: left;
 margin: 0 0 10px 10px;
 display: block;
 margin: auto;
-width: 50%;
+
 }
 
 
@@ -139,7 +136,7 @@ width: 50%;
 }
 
 ul {
-    
+
     top: 0;
     width: 100%;
 }
