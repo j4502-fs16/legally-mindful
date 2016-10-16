@@ -36,9 +36,11 @@ body{
 }
 
 img {
-   max-width: 200%;
+   width: 200px;
    border: 1px;
 }
+<<<<<<< HEAD
+=======
 
 #mission{
 max-width: 100%;
@@ -53,6 +55,15 @@ display: block;
 margin: auto;
 width: 50%;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 #founderone{
 
@@ -63,6 +74,13 @@ width: 50%;
 
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 .button {
   background-color: #242075;
   color: #FFF;
@@ -130,13 +148,7 @@ width: 50%;
 
  #footer p {
    font-family:'Crimson Text', serif;
-<<<<<<< HEAD
-   font-size: 0.9rem;
-
-=======
-   font-size: 0.5rem;
->>>>>>> origin/master
- }
+   font-size: .8rem;
 
  .active {
     background-color: #4CAF50;
