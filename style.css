@@ -11,7 +11,7 @@ h1{
   font-family:'Open Sans', sans-serif;
   font-weight: lighter;
   color: #242075;
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-align: center;
   padding-top: 50px;
 
@@ -22,23 +22,47 @@ h2{
   font-family:'Open Sans', sans-serif;
   font-weight: 600;
   color: #242075;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 body{
   margin: 50px 0 0;
   background-color:#fff;
 }
 
-img {
-   width: 200px;
-   border: 1px;
+
+#mission{
+max-width: 100%;
+height: auto;
 }
+
+#abouttree{
+align: left;
+margin: 0 0 10px 10px;
+display: block;
+margin: auto;
+
+}
+
+
+#founderone{
+
+  margin: 0 0 10px 10px;
+  display: block;
+  margin: auto;
+
+
+}
+
+#foundertwo{
+margin: 0 0 10px 10px;
+display: block;
+margin: auto;
+
+}
+
 .button {
   background-color: #242075;
   color: #FFF;
@@ -46,7 +70,7 @@ img {
   margin: 10px;
   padding: 10px;
   width: 100%;
-  border-radius: 40px;
+  border-radius: 50px;
   -moz-border-radius: 80px;
   -webkit-border-radius: 80px;
 }
@@ -78,10 +102,11 @@ img {
 
 #nav li {
   list-style-type: none;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 14%;
+  /*float: left;*/
+  margin: 10px;
+  padding: 10px;
+background-color: #242075;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
 }
@@ -102,24 +127,22 @@ img {
    font-weight: bold;
  }
 
-/*do I even need the #about and #founders stuff? Trying to style for my about page*/
 
- #footer p {
+ #footer {
    font-family:'Crimson Text', serif;
-<<<<<<< HEAD
-   font-size: 0.9rem;
-
-=======
-   font-size: 0.5rem;
->>>>>>> origin/master
- }
+   font-size: 1rem;
+   background-color: #252075;
+   color: white;
 
  .active {
     background-color: #4CAF50;
+  }
+
+
 }
 
 ul {
-    position: fixed;
+
     top: 0;
     width: 100%;
 }
