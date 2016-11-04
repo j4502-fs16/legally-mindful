@@ -97,7 +97,6 @@ margin: auto;
 
 .nav {
   padding:0;
-
 }
 
 .nav li {
@@ -119,7 +118,7 @@ background-color: #242075;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
- }
+}
 
  .nav a:hover, a:active {
    background-color: #BFBCAE;
@@ -127,24 +126,24 @@ background-color: #242075;
    font-weight: bold;
  }
 
-
  .footer {
    font-family:'Crimson Text', serif;
    font-size: 1rem;
    background-color: #252075;
    color: white;
    padding:10px
- }
 
  .active {
     background-color: #4CAF50;
   }
-
-
 }
 
 ul {
-
     top: 0;
     width: 100%;
+}
+
+.contactform {
+  display:flex;
+  background-color: gray;
 }
