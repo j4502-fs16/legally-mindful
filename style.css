@@ -52,7 +52,7 @@ margin: auto;
   margin: 0 0 10px 10px;
   display: block;
   margin: auto;
-
+flex-flow:row;
 
 }
 
@@ -60,7 +60,7 @@ margin: auto;
 margin: 0 0 10px 10px;
 display: block;
 margin: auto;
-
+flex-flow:row;
 }
 
 .button {
