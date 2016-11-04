@@ -145,25 +145,30 @@ ul {
 
 .contactform {
   display:flex;
-  flex-flow: column;
-  justify-content: center;
-  margin:auto;
+  flex-flow: column wrap;
+  align-content: center;
   background-color: lightgray;
+  margin-left: 20px;
+  margin-right:20px;
 }
 
 #name {
   order:1;
+  padding:10px;
 
 }
 
 #title {
   order:2;
+  padding:10px;
 }
 
 #email {
   order: 3;
+  padding:10px;
 }
 
 #contactlist {
   order:4;
+  padding:10px;
 }
