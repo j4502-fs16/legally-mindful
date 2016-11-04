@@ -145,5 +145,25 @@ ul {
 
 .contactform {
   display:flex;
-  background-color: gray;
+  flex-flow: column;
+  justify-content: center;
+  margin:auto;
+  background-color: lightgray;
+}
+
+#name {
+  order:1;
+
+}
+
+#title {
+  order:2;
+}
+
+#email {
+  order: 3;
+}
+
+#contactlist {
+  order:4;
 }
