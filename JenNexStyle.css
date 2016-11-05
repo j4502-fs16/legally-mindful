@@ -22,7 +22,7 @@ a{
 h1{
   font-size:2em;
   color:white;
-  padding:10px;
+
   text-align:center;
   font-family: 'Crimson Text', serif;
 
@@ -60,6 +60,8 @@ h2{
 
 }
 
+
+
 .footer{
   border-top: 1px solid #FBA100;
   margin-left: 10px;
@@ -79,8 +81,7 @@ img{
   border: none;
   width: 100%;
   font-size: 2em;
-  border-top: 3px solid #FBA100;
-  border-bottom: 3px solid #FBA100;
+  border: none;
 }
 
   h3{
@@ -96,7 +97,12 @@ img{
   }
 
   .summary1 h2:hover{
-    background: #b6a19e;
+    background: #fdd999;
+
+  }
+
+  .summary2 h2:hover{
+    background: #fdd999;
 
   }
 
@@ -106,32 +112,47 @@ img{
 }
 
 .boards h4:hover{
-  background: #b6a19e;
+  background: #fdd999;
 }
 
 @media all and (min-width:480px){
 
+
   .header{
     display: block;
+    background: #6c648b;
+
   }
 
 .nav{
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
-  margin: 20px;
+  justify-content: space-around;
+
+  background: #FBA100;
+  color: white;
+
+
 
 }
 
 .nav li{
   border: none;
-  padding-top: 10px;
+padding: 10px;
   font-size: 1.5em;
+  background: #FBA100;
+  color: white;
 
 }
 
+.nav a{
+  color: white;
+  background: #FBA100;
+  width: 100%;
+}
+
 .nav a:hover {
-  background:#6c648b;
+  background:#fdd999;
   color: white;
   padding: 15px;
 
