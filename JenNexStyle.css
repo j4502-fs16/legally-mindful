@@ -56,19 +56,20 @@ h2{
   font-family: 'Open Sans', sans-serif;
   margin: 10px;
   padding-top: 10px;
+  color:black;
 
 }
 
 .footer{
   border-top: 1px solid #FBA100;
   margin-left: 10px;
+  margin-top: 40px;
+
 }
 
 img{
   display: none;
 }
-
-/*ABOUT PAGE CSS BASIC*/
 
 .wrapperabout h2{
   text-align: center;
@@ -92,10 +93,21 @@ img{
   h4{
       font-family: 'Crimson Text', serif;
       margin-left: 30px;
+  }
+
+  .summary1 h2:hover{
+    background: #b6a19e;
 
   }
 
+.boards a{
+  color: black;
 
+}
+
+.boards h4:hover{
+  background: #b6a19e;
+}
 
 @media all and (min-width:480px){
 
@@ -125,21 +137,75 @@ img{
 
 }
 
-img{
+
+.story{
   display: flex;
   flex-flow: row;
+}
+
+.wrapperindex{
+  display:flex;
+}
+
+.storymissionstatement img{
+  display: flex;
+  width: 17%;
+  height: 17%;
+  margin-top: 60px;
+}
+
+.storygetinvolved img{
+  display: flex;
+  width: 16%;
+  height: 16%;
+  margin-top: 60px;
+}
+
+.storywhatis img{
+  display: flex;
+  width: 17%;
+  height: 17%;
+  margin-top: 80px;
+}
+
+.storyfounders{
+  display:flex;
 
 }
 
+.aboutfounders img{
+  display:block;
+  margin-left: 20px
 
+}
 
+.founder1 img{
+  width: 180px;
+  height:220px;
+  padding-bottom:10px;
+}
+
+.founder2 img{
+  width: 180px;
+  height:220px;
+  padding-top: 10px;
+
+}
+
+.founder1{
+  display:flex;
+}
+
+.founder2{
+  display:flex;
+}
 
 
 }/*end min-wide 600px*/
 
 
 
-@media all and (min-width:1000px){
+@media all and (min-width:1000){
 
 
 }/*end min-width 1000px*/
