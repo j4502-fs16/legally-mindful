@@ -85,7 +85,7 @@ img{
 }
 
   h3{
-    border-bottom:2px solid #6c648b;
+    border-bottom:2px solid #FBA100;
     font-family: 'Open Sans', sans-serif;
     margin: 10px;
     padding-top: 10px;
@@ -131,8 +131,6 @@ img{
 
   background: #FBA100;
   color: white;
-
-
 
 }
 
@@ -221,7 +219,6 @@ padding: 10px;
   display:flex;
 }
 
-
 }/*end min-wide 600px*/
 
 
@@ -230,3 +227,13 @@ padding: 10px;
 
 
 }/*end min-width 1000px*/
+
+
+@media only screen and (min-width: 1140px) {
+
+    .wrapper {
+      width: 1026px;
+      margin: 0 auto;
+    }
+
+  }
