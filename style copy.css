@@ -60,8 +60,6 @@ h2{
 
 }
 
-
-
 .footer{
   border-top: 1px solid #FBA100;
   margin-left: 10px;
@@ -115,8 +113,12 @@ img{
   background: #fdd999;
 }
 
-@media all and (min-width:480px){
+@media all and (min-width:600px){
 
+  .aboutdirectors img {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
   .header{
     display: block;
@@ -199,6 +201,7 @@ padding: 10px;
   margin-left: 20px
 
 }
+
 
 .founder1 img{
   width: 180px;
