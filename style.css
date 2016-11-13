@@ -10,11 +10,7 @@ p{
 }
 
 header{
-<<<<<<< HEAD:style.css
-  background: #373737;
-=======
   background: #6c648b;
->>>>>>> origin/master:style copy.css
   width:100%;
   margin:0;
   padding:10px;
@@ -25,14 +21,8 @@ a{
 
 h1{
   font-size:2em;
-<<<<<<< HEAD:style.css
-  color: white;
-  padding: 0px;
-  margin: 0;
-=======
   color:white;
 
->>>>>>> origin/master:style copy.css
   text-align:center;
   font-family: 'Crimson Text', serif;
 
@@ -58,7 +48,7 @@ h1{
 }
 .nav a{
   text-decoration: none;
-  color: #c0b283;
+  color: #6c648b;
 }
 
 h2{
@@ -86,7 +76,7 @@ img{
 .wrapperabout h2{
   text-align: center;
   background: white;
-  color:#c0b283;
+  color:#6c648b;
   font-family: 'Crimson Text', serif;
   border: none;
   width: 100%;
@@ -127,44 +117,10 @@ img{
 
 @media all and (min-width:480px){
 
-  .directors img {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .directors {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 10px;
-    justify-content: center;
-    justify-content: space-around;
-  }
-
-  .director-1 {
-    width: 30%;
-    height: auto;
-    float: left;
-    margin: 10px;
-    flex-flow: row wrap;
-  }
-
-  .director-2 {
-    width: 30%;
-    height: auto;
-    margin: 10px;
-    flex-flow: row wrap;
-  }
-
-  .director-3 {
-    width: 30%;
-    height: auto;
-    margin: 10px;
-    flex-flow: row wrap;
-  }
 
   .header{
     display: block;
-    background: white;
+    background: #6c648b;
 
   }
 
@@ -173,12 +129,10 @@ img{
   flex-flow: row;
   justify-content: space-around;
 
-<<<<<<< HEAD:style.css
-  background: #dcd0c0;
-=======
   background: #FBA100;
->>>>>>> origin/master:style copy.css
   color: white;
+
+
 
 }
 
@@ -186,23 +140,14 @@ img{
   border: none;
 padding: 10px;
   font-size: 1.5em;
-<<<<<<< HEAD:style.css
-  background: #dcd0c0;
-=======
   background: #FBA100;
->>>>>>> origin/master:style copy.css
   color: white;
 
 }
 
 .nav a{
-<<<<<<< HEAD:style.css
-  color: #373737;
-  background: #dcd0c0;
-=======
   color: white;
   background: #FBA100;
->>>>>>> origin/master:style copy.css
   width: 100%;
 }
 
@@ -225,9 +170,9 @@ padding: 10px;
 
 .storymissionstatement img{
   display: flex;
-
+  width: 17%;
+  height: 17%;
   margin-top: 60px;
-  margin-left: 20px;
 }
 
 .storygetinvolved img{
@@ -281,16 +226,7 @@ padding: 10px;
 
 
 
-@media all and (min-width:1140){
+@media all and (min-width:1000){
 
-  header {
-    width: 1026px;
-    margin: 0 auto;
-  }
-
-  body {
-    width: 1026px;
-    margin: 0 auto;
-  }
 
 }/*end min-width 1000px*/
