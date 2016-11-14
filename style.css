@@ -28,6 +28,10 @@ h1{
 
 }
 
+#search{
+
+}
+
 .tab-group{
   display: flex;
   flex-flow:column;
@@ -46,7 +50,7 @@ h1{
   font-family: 'Open Sans', sans-serif;
 }
 
-.tab input:focus + label, .tab label:hover{
+.tab input:focus + label, .tab label:checked{
   background:#fdd999;
 }
 
@@ -68,7 +72,6 @@ h1{
   list-style: none;
   text-align: center;
   padding:0px;
-
 }
 
 .tab-content a{
