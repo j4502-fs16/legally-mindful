@@ -220,37 +220,6 @@ img{
 =======
 =======
 <<<<<<< HEAD
-@media screen and (min-width:700px){
-  nav ul{
-    display:none;
-  }
-
-  nav ul li{
-    border-top:none;
-  }
-}
->>>>>>> origin/master
-
-
-<<<<<<< HEAD
-=======
-  .mainnav{
-    display:flex;
-    flex-flow:column;
-  }
-
-h1{
-    text-align:center;
-    padding:0;
-    margin-top:5px;
-  }
-
-  .topsearch{
-    flex-flow:row;
-    justify-content:space-around;
-    background:gray;
-  }
-
 >>>>>>> origin/master
 .aboutdirectors {
   display: flex;
