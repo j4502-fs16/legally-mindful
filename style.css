@@ -205,6 +205,16 @@ img{
   background: #fdd999;
 }
 
+.blogpost {
+  display: flex
+  flex-flow: row wrap;
+}
+
+.contactform {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
