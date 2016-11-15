@@ -208,19 +208,16 @@ img{
 .blogpost {
   display: flex
   flex-flow: row wrap;
-  margin: 10px;
 }
 
 .contactform {
   display: flex;
   flex-flow: column wrap;
-  margin: 10px;
 }
 
 .readblog {
   display: flex
   flex-flow: row wrap;
-  margin: 10px;
 }
 
 .aboutdirectors {
