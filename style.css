@@ -214,7 +214,7 @@ img{
 }
 
 .blog-post {
-  display: flex
+  display: flex;
   flex-flow: row wrap;
   margin: 10px;
 }
@@ -225,7 +225,7 @@ img{
 }
 
 .read-blog {
-  display: flex
+  display: flex;
   flex-flow: row wrap;
 }
 
@@ -248,7 +248,9 @@ img{
       border-top:none;
     }
   }
-.menu-trigger {display: none; }
+.menu-trigger {
+  display: none;
+}
 
   .header{
     display: block;
@@ -401,9 +403,6 @@ h4 {
       width: 1026px;
       margin: 0 auto;
     }
-
-
-
 
 
 }/*end min-width 1140px*/
