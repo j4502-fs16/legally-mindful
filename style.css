@@ -38,9 +38,9 @@ a{
 
 .topsearch{
   background: #b6a19e;
-  display:flex;
+  display:none;
   flex-direction:row-reverse;
-/*flex-flow:column;*/
+
 }
 .menu-trigger {display: none; }
 .mainnav{
@@ -228,6 +228,14 @@ img{
 
 >>>>>>> origin/master
 @media all and (min-width:600px){
+  nav ul{
+      display:none;
+    }
+
+    nav ul li{
+      border-top:none;
+    }
+  }
 
 
   .header{
