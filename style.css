@@ -205,6 +205,16 @@ img{
   background: #fdd999;
 }
 
+.blogpost {
+  display: flex
+  flex-flow: row wrap;
+}
+
+.contactform {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 @media all and (min-width:600px){
 
 
@@ -340,7 +350,6 @@ img{
   width: 30%;
   height: auto;
 }
-
 
 }/*end min-wide 600px*/
 
