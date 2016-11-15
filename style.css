@@ -42,7 +42,7 @@ a{
   flex-direction:row-reverse;
 
 }
-.menu-trigger {display: none; }
+
 .mainnav{
   list-style-type: none;
   display: block;
@@ -236,7 +236,7 @@ img{
       border-top:none;
     }
   }
-
+.menu-trigger {display: none; }
 
   .header{
     display: block;

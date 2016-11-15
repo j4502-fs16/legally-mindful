@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.menu-trigger').click(function() {
-    $('nav ul').slideToggle(500);
+    $('nav ul').slideToggle(600);
 });
 
 $(window).resize(function(){
