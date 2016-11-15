@@ -29,8 +29,11 @@ a{
 }
 
 #search{
-  color: #dcd0c0;
+  padding:8px 15px;
+  background:#f4f4f4;
+  border:0px solid #f4f4f4;
 }
+
 
 h1{
   font-size:2em;
@@ -41,10 +44,10 @@ h1{
 
 }
 
+<<<<<<< HEAD
 
-
-
-
+=======
+>>>>>>> origin/master
 .topsearch{
   background: #b6a19e;
   display:flex;
@@ -176,12 +179,12 @@ img{
   background: #fdd999;
 }
 
-@media all and (min-width:480px){
+@media all and (min-width:600px){
 
 
   .header{
     display: block;
-    background: #6c648b;
+    background: #c0b283;
 
   }
 
@@ -269,8 +272,20 @@ img{
 }/*end min-wide 600px*/
 
 
+  @media all and (min-width: 1140px) {
 
-@media all and (min-width:1000){
+    header {
+      width: 1026px;
+      margin: 0 auto;
+    }
 
+    body {
+      width: 1026px;
+      margin: 0 auto;
+    }
 
-}/*end min-width 1000px*/
+    nav a {
+      padding: 25px 1%;
+    }
+
+}/*end min-width 1140px*/
