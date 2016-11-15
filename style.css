@@ -208,25 +208,27 @@ img{
 .blogpost {
   display: flex
   flex-flow: row wrap;
+  margin: 10px;
 }
 
 .contactform {
   display: flex;
   flex-flow: column wrap;
+  margin: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
+.readblog {
+  display: flex
+  flex-flow: row wrap;
+  margin: 10px;
+}
+
 .aboutdirectors {
   display: flex;
   flex-flow: column;
 }
 
->>>>>>> origin/master
+
 @media all and (min-width:600px){
   nav ul{
       display:none;
@@ -364,7 +366,6 @@ img{
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  height: auto;
 }
 
 .directors {
@@ -374,6 +375,7 @@ img{
 h4 {
   margin: 0;
 }
+
 }/*end min-wide 600px*/
 
 
