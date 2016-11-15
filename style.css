@@ -358,16 +358,17 @@ img{
 .aboutdirectors {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 .directors img {
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
 }
 
 .directors {
   margin: 15px;
+  width: 30%;
 }
 
 h4 {
