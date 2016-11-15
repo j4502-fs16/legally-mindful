@@ -28,7 +28,12 @@ h1{
 
 }
 
-#search{
+
+
+.topsearch{
+  background: #b6a19e;
+  display:flex;
+  flex-direction:row-reverse;
 
 }
 
