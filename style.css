@@ -205,16 +205,6 @@ img{
   background: #fdd999;
 }
 
-.blogpost {
-  display: flex
-  flex-flow: row wrap;
-}
-
-.contactform {
-  display: flex;
-  flex-flow: column wrap;
-}
-
 @media all and (min-width:600px){
 
 
@@ -335,22 +325,30 @@ img{
   display:flex;
 }
 
-.directors img {
+.aboutdirectors {
   display: flex;
   flex-flow: row wrap;
 }
 
-.directors {
+.directors img {
   display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  margin: 10px;
-  justify-content: center;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.directors {
+  margin: 15px;
   width: 30%;
   height: auto;
 }
 
+<<<<<<< HEAD
+=======
+h4 {
+  margin: 0;
+}
+
+>>>>>>> origin/master
 }/*end min-wide 600px*/
 
 
