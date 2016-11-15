@@ -51,13 +51,14 @@ h1{
 .mainnav li{
   border-top:1px solid black;
   border-bottom:1px solid black;
-  background:white;
+  background: #FBA100;
   font-family: 'Open Sans', sans-serif;
+
 
 }
 .mainnav a{
   text-decoration: none;
-  color: #6c648b;
+  color: white;
 }
 
 
@@ -68,11 +69,21 @@ h1{
 }
 
 .tab label{
-  background: #FBA100;
+  background: #b6a19e;
   color: white;
   display:block;
   font-weight: bold;
-  line-height: 3;
+  padding-left: .5em;
+  margin-bottom: .5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tab a{
+  background: #b6a19e;
+  color: white;
+  display:block;
+  font-weight: bold;
   padding-left: .5em;
   margin-bottom: .5em;
   text-align: center;
@@ -156,6 +167,17 @@ img{
   border: none;
 }
 
+.wrappergetinvolved h2{
+  text-align: center;
+  background: white;
+  color:#6c648b;
+  font-family: 'Crimson Text', serif;
+  border: none;
+  width: 100%;
+  font-size: 2em;
+  border: none;
+}
+
   h3{
     border-bottom:2px solid #6c648b;
     font-family: 'Open Sans', sans-serif;
@@ -229,16 +251,17 @@ img{
         display:flex;
         flex-flow: row;
         justify-content: space-around;
-        background: #FBA100
+        background: #b6a19e;
       }
 
       .tab label{
-        padding: 0 10px;
+        padding: 0 20px;
       }
 
       .tab label:hover ~ .tab-content{
-        height:9em;
+        height:12em;
       }
+
 .story{
   display: flex;
   flex-flow: row;
