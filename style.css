@@ -28,9 +28,9 @@ a{
   background: #b6a19e;
   display:flex;
   flex-direction:row-reverse;
-
+/*flex-flow:column;*/
 }
-
+.menu-trigger {display: none; }
 .mainnav{
   list-style-type: none;
   display: block;
