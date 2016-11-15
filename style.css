@@ -226,6 +226,10 @@ img{
   flex-flow: column;
 }
 
+.aboutdirectors img {
+  display: none;
+}
+
 
 @media all and (min-width:600px){
   nav ul{
