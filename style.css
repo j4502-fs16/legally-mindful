@@ -38,7 +38,8 @@ a{
 }
 
 .topsearch{
-  background: #373737;
+  background: #c0b283;
+  padding: 5px;
   display:block;
   flex-direction:row-reverse;
 
