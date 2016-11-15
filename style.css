@@ -205,6 +205,7 @@ img{
   background: #fdd999;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width:700px){
   nav ul{
     display:none;
@@ -233,6 +234,11 @@ h1{
     justify-content:space-around;
     background:gray;
   }
+=======
+.aboutdirectors {
+  display: flex;
+  flex-flow: column;
+>>>>>>> origin/master
 }
 
 @media all and (min-width:600px){
@@ -355,22 +361,26 @@ h1{
   display:flex;
 }
 
-.directors img {
+.aboutdirectors {
   display: flex;
   flex-flow: row wrap;
 }
 
-.directors {
+.directors img {
   display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  margin: 10px;
-  justify-content: center;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.directors {
+  margin: 15px;
   width: 30%;
   height: auto;
 }
 
+h4 {
+  margin: 0;
+}
 
 }/*end min-wide 600px*/
 
