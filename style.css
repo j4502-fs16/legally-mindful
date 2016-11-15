@@ -239,7 +239,7 @@ img{
 }
 
 
-@media all and (min-width:600px){
+@media all and (min-width:600px) {
   nav ul{
       display:none;
     }
@@ -247,7 +247,7 @@ img{
     nav ul li{
       border-top:none;
     }
-  }
+
 .menu-trigger {
   display: none;
 }
@@ -392,7 +392,7 @@ h4 {
 }/*end min-wide 600px*/
 
 
-  @media all and (min-width: 1140px) {
+  @media all and (min-width:1140px) {
 
     header {
       width: 1026px;
