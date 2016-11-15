@@ -206,35 +206,8 @@ img{
 }
 
 <<<<<<< HEAD
-@media screen and (min-width:700px){
-  nav ul{
-    display:none;
-  }
 
-  nav ul li{
-    border-top:none;
-  }
-}
 
-@media all and (min-width:800px){
-
-  .mainnav{
-    display:flex;
-    flex-flow:column;
-  }
-
-h1{
-    text-align:center;
-    padding:0;
-    margin-top:5px;
-  }
-
-  .topsearch{
-    flex-flow:row;
-    justify-content:space-around;
-    background:gray;
-  }
-=======
 .aboutdirectors {
   display: flex;
   flex-flow: column;
