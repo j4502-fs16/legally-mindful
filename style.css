@@ -28,8 +28,6 @@ h1{
 
 }
 
-
-
 .topsearch{
   background: #b6a19e;
   display:flex;
@@ -161,7 +159,7 @@ img{
   background: #fdd999;
 }
 
-@media all and (min-width:480px){
+@media all and (min-width:600px){
 
 
   .header{
@@ -254,8 +252,20 @@ img{
 }/*end min-wide 600px*/
 
 
+  @media all and (min-width: 1140px) {
 
-@media all and (min-width:1000){
+    header {
+      width: 1026px;
+      margin: 0 auto;
+    }
 
+    body {
+      width: 1026px;
+      margin: 0 auto;
+    }
 
-}/*end min-width 1000px*/
+    nav a {
+      padding: 25px 1%;
+    }
+
+}/*end min-width 1140px*/
