@@ -24,33 +24,37 @@ a{
   margin: 0 20px;
 }
 
-.tab{
-  margin: 0 20px;
-}
-
-#search{
-  padding:8px 15px;
-  background:#f4f4f4;
-  border:0px solid #f4f4f4;
-}
-
-
-h1{
-  font-size:2em;
-  color:white;
-
-  text-align:center;
-  font-family: 'Crimson Text', serif;
-
-}
-
-
 .topsearch{
   background: #b6a19e;
   display:flex;
   flex-direction:row-reverse;
 
 }
+
+.mainnav{
+  list-style-type: none;
+  display: block;
+  font-size:.9em;
+  line-height:2em;
+  padding:0;
+  text-align:center;
+  display: flex;
+  flex-flow:column wrap;
+}
+
+.mainnav li{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  background: #FBA100;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+.mainnav a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .tab-group{
   display: flex;
@@ -59,11 +63,21 @@ h1{
 }
 
 .tab label{
-  background: #FBA100;
+  background: #b6a19e;
   color: white;
   display:block;
   font-weight: bold;
-  line-height: 3;
+  padding-left: .5em;
+  margin-bottom: .5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tab a{
+  background: #b6a19e;
+  color: white;
+  display:block;
+  font-weight: bold;
   padding-left: .5em;
   margin-bottom: .5em;
   text-align: center;
@@ -112,6 +126,8 @@ h1{
   font-family: 'Open Sans', sans-serif;
 
 }
+
+
 h2{
   border-bottom:2px solid #FBA100;
   font-family: 'Open Sans', sans-serif;
@@ -185,20 +201,51 @@ img{
 
   }
 
-  .tab-group{
-      display:flex;
+  .mainnav{
+      display: flex;
       flex-flow: row;
       justify-content: space-around;
-      background: #FBA100
+
+      background: #FBA100;
+      color: white;
     }
 
-    .tab label{
-      padding: 0 10px;
+    .mainnav li{
+      border: none;
+    padding: 10px;
+      font-size: 1.5em;
+      background: #FBA100;
+      color: white;
+
     }
 
-    .tab label:hover ~ .tab-content{
-      height:9em;
+    .mainnav a{
+      color: white;
+      background: #FBA100;
+      width: 100%;
     }
+
+    .mainnav a:hover {
+      background:#fdd999;
+      color: white;
+      padding: 15px;
+    }
+
+    .tab-group{
+        display:flex;
+        flex-flow: row;
+        justify-content: space-around;
+        background: #b6a19e;
+      }
+
+      .tab label{
+        padding: 0 20px;
+      }
+
+      .tab label:hover ~ .tab-content{
+        height:12em;
+      }
+
 
 .story{
   display: flex;
