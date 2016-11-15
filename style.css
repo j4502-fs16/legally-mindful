@@ -205,17 +205,18 @@ img{
   background: #fdd999;
 }
 
-.blogpost {
+.blog-post {
   display: flex
   flex-flow: row wrap;
+  margin: 10px;
 }
 
-.contactform {
+.contact-form {
   display: flex;
   flex-flow: column wrap;
 }
 
-.readblog {
+.read-blog {
   display: flex
   flex-flow: row wrap;
 }
