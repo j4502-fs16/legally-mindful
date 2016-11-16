@@ -56,6 +56,7 @@ a{
 }
 
 .mainnav li{
+  /*display:none;*/
   border-top:1px solid black;
   border-bottom:1px solid black;
   background: #FBA100;
@@ -227,18 +228,18 @@ img{
   display: flex;
   flex-flow: column;
 }
+/*nav ul{
+    display:none;
+  }
 
+  nav ul li{
+    border-top:none;
+  }
+}*/
 
 @media all and (min-width:600px){
-  nav ul{
-      display:none;
-    }
 
-    nav ul li{
-      border-top:none;
-    }
-  }
-.menu-trigger {display: none; }
+/*.menu-trigger {display: none; }*/
 
   .header{
     display: block;
