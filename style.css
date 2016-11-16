@@ -22,11 +22,17 @@ h1{
   font-size:2.2em;
   color: white;
   padding: 10px;
+  padding-left: 10px;
   margin: 0;
   color:white;
-  text-align:center;
+  text-align: center;
+  justify-content: center;
   font-family: 'Trirong', serif;
   font-weight: lighter;
+}
+
+#h1{
+  padding-left: 120px;
 }
 
 a{
@@ -147,7 +153,7 @@ font-family: 'Quattrocento', sans-serif;
 
 
 h2{
-  border-bottom:2px solid #FBA100;
+  border-bottom:2px solid #373737;
   font-family: 'Quattrocento', sans-serif;
   font-weight: bold;
   font-size: 1.6em;
@@ -160,6 +166,7 @@ h2{
 
 
 .footer{
+  background-color: #373737;
   border-top: 1px solid #FBA100;
   margin-left: 10px;
   margin-top: 40px;
