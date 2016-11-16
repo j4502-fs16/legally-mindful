@@ -261,6 +261,71 @@ img{
   display: none;
 }
 
+.getinvolvedtitles h2{
+  text-align: center;
+  background: white;
+  color:#373737;
+  font-family: "Lato", sans-serif;
+  border: none;
+  width: 100%;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+
+}
+
+.documentdatabase h3{
+  text-align: center;
+  background: #373737;
+  color:#c0b283;
+  font-family: "Lato", sans-serif;
+  border: none;
+margin-right: 60px;
+margin-left: 60px;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.documentdatabase h3:hover{
+  background: #f4f4f4;
+  color:#c0b283;
+}
+
+.links p{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+.links a{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+
+.goups p{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+.groups a{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+
+.goups p:hover{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+  background: #dcd0c0;
+
+}
+.groups a:hover{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+background: #dcd0c0;
+}
 
 @media all and (min-width:600px) {
   nav ul{
