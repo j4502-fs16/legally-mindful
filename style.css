@@ -4,7 +4,7 @@ body{
 }
 
 p{
-  font-family: 'Crimson Text', serif;
+  font-family: 'crimson text', serif;
   margin-left: 30px;
   margin-right: 30px;
   font-size: 1.2em;
@@ -19,14 +19,19 @@ header{
 
 
 h1{
-  font-size:2em;
+  font-size:2.2em;
   color: white;
-  padding: 0px;
+  padding: 10px;
+  padding-left: 10px;
   margin: 0;
   color:white;
-  text-align:center;
-  font-family: 'Crimson Text', serif;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Trirong', serif;
+  font-weight: lighter;
 }
+
+
 
 a{
   text-decoration: none;
@@ -37,9 +42,11 @@ a{
 }
 
 .topsearch{
-  background: #b6a19e;
+  background: #c0b283;
+  padding: 5px;
   display:block;
   flex-direction:row-reverse;
+  float: right;
 
 }
 
@@ -59,47 +66,49 @@ a{
   /*display:none;*/
   border-top:1px solid black;
   border-bottom:1px solid black;
-  background: #FBA100;
-  font-family: 'Open Sans', sans-serif;
+  background: #373737;
+  font-family: 'Quattrocento', sans-serif;
 
 
 }
 .mainnav a{
   text-decoration: none;
   color: white;
+
 }
 
 
 .tab-group{
   display: flex;
   flex-flow:column;
+  background:  #dcd0c0;
 
 }
 
 .tab label{
-  background: #b6a19e;
-  color: white;
+  background: #dcd0c0;
+  color: #373737;
   display:block;
   font-weight: bold;
   padding-left: .5em;
   margin-bottom: .5em;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
 }
 
 .tab a{
-  background: #b6a19e;
-  color: white;
+  background: #dcd0c0;
+  color: #373737;
   display:block;
   font-weight: bold;
   padding-left: .5em;
   margin-bottom: .5em;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quattrocento', sans-serif;
 }
 
 .tab input:focus + label, .tab label:checked{
-  background:#fdd999;
+  background:#dcd0c0;
 }
 
 .tab input{
@@ -123,28 +132,30 @@ a{
 }
 
 .tab-content a{
-  background:#fdd999;
+  background:#dcd0c0;
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
   display:block;
   text-align: center;
-  color: black;
+  color: #373737;
   padding: 10px;
 }
 
 .tab-content li{
   border-top:1px solid black;
   border-bottom:1px solid black;
-  background:white;
-  font-family: 'Open Sans', sans-serif;
+  background:#dcd0c0;
+font-family: 'Quattrocento', sans-serif;
 
 }
 
 
 h2{
-  border-bottom:2px solid #FBA100;
-  font-family: 'Open Sans', sans-serif;
+  border-bottom:2px solid #373737;
+  font-family: 'Quattrocento', sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
   margin: 10px;
   padding-top: 10px;
   color:black;
@@ -154,9 +165,12 @@ h2{
 
 
 .footer{
-  border-top: 1px solid #FBA100;
+  background-color: #373737;
+  color: white;
+  border-top: none;
   margin-left: 10px;
   margin-top: 40px;
+  padding: 3px;
 
 }
 
@@ -167,34 +181,50 @@ img{
 .wrapperabout h2{
   text-align: center;
   background: white;
-  color:#6c648b;
-  font-family: 'Crimson Text', serif;
+  color:#373737;
+  font-family: "Lato", sans-serif;
   border: none;
   width: 100%;
   font-size: 2em;
-  border: none;
 }
 
   h3{
-    border-bottom:2px solid #6c648b;
-    font-family: 'Open Sans', sans-serif;
+    border-bottom:2px solid #373737;
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
     margin: 10px;
     padding-top: 10px;
+    color:black;
   }
 
   h4{
-      font-family: 'Crimson Text', serif;
+      font-family: 'Quattrocento', serif;
+      font-weight: bold;
       margin-left: 30px;
   }
 
+  h5{
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 10px;
+    padding-top: 10px;
+    color:black;
+  }
+
   .summary1 h2:hover{
-    background: #fdd999;
+    background: #dcd0c0;
 
   }
 
   .summary2 h2:hover{
-    background: #fdd999;
+    background: #dcd0c0;
 
+  }
+
+  .summary3 h3:hover{
+    background: #dcd0c0;
   }
 
 .boards a{
@@ -203,25 +233,23 @@ img{
 }
 
 .boards h4:hover{
-  background: #fdd999;
+  background: #dcd0c0;
 }
 
-.blogpost {
-  display: flex
+.blog-post {
+  display: flex;
   flex-flow: row wrap;
   margin: 10px;
 }
 
-.contactform {
+.contact-form {
   display: flex;
   flex-flow: column wrap;
-  margin: 10px;
 }
 
-.readblog {
-  display: flex
+.read-blog {
+  display: flex;
   flex-flow: row wrap;
-  margin: 10px;
 }
 
 .aboutdirectors {
@@ -232,6 +260,7 @@ img{
     display:none;
   }
 
+<<<<<<< HEAD
   nav ul li{
     border-top:none;
   }
@@ -240,19 +269,103 @@ img{
 @media all and (min-width:600px){
 
 /*.menu-trigger {display: none; }*/
+=======
+.aboutdirectors img {
+  display: none;
+}
+
+.getinvolvedtitles h2{
+  text-align: center;
+  background: white;
+  color:#373737;
+  font-family: "Lato", sans-serif;
+  border: none;
+  width: 100%;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+
+}
+
+.documentdatabase h3{
+  text-align: center;
+  background: #373737;
+  color:#c0b283;
+  font-family: "Lato", sans-serif;
+  border: none;
+margin-right: 60px;
+margin-left: 60px;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.documentdatabase h3:hover{
+  background: #f4f4f4;
+  color:#c0b283;
+}
+
+.links p{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+.links a{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+
+.goups p{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+.groups a{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+
+}
+
+.goups p:hover{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+  background: #dcd0c0;
+
+}
+.groups a:hover{
+  font-family: "Lato", sans-serif;
+  color: #373737;
+background: #dcd0c0;
+}
+
+@media all and (min-width:600px) {
+  nav ul{
+      display:none;
+    }
+
+    nav ul li{
+      border-top:none;
+    }
+
+.menu-trigger {
+  display: none;
+}
+>>>>>>> origin/master
 
   .header{
     display: block;
     background: #c0b283;
-
   }
+
 
   .mainnav{
       display: flex;
       flex-flow: row;
       justify-content: space-around;
 
-      background: #FBA100;
+      background: #373737;
       color: white;
     }
 
@@ -260,19 +373,19 @@ img{
       border: none;
     padding: 10px;
       font-size: 1.5em;
-      background: #FBA100;
+      background: #373737;
       color: white;
 
     }
 
     .mainnav a{
       color: white;
-      background: #FBA100;
+      background: #373737;
       width: 100%;
     }
 
     .mainnav a:hover {
-      background:#fdd999;
+      background:#dcd0c0;
       color: white;
       padding: 15px;
     }
@@ -281,7 +394,7 @@ img{
         display:flex;
         flex-flow: row;
         justify-content: space-around;
-        background: #b6a19e;
+        background: #dcd0c0;
       }
 
       .tab label{
@@ -333,20 +446,18 @@ img{
 
 .aboutfounders img{
   display:block;
-  margin-left: 20px
+  margin: 10px;
 
 }
 
 .founder1 img{
   width: 135;
   height:180;
-  padding-bottom:10px;
 }
 
 .founder2 img{
   width: 135;
   height:140;
-  padding-top: 10px;
 
 }
 
@@ -361,16 +472,83 @@ img{
 .aboutdirectors {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 .directors img {
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  padding-bottom: 10px;
 }
 
 .directors {
   margin: 15px;
+  width: 30%;
+}
+
+.director-2 img {
+  width: 145px;
+  height: auto;
+}
+
+.director-3 img {
+  width: 185px;
+  height: auto;
+}
+
+.director-6 img {
+  width: 185px;
+  height: auto;
+}
+
+.director-8 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-1 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-2 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-3 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-4 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-5 img {
+  width: 165px;
+  height: auto;
+}
+
+.advisor-6 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-7 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-8 img {
+  width: 185px;
+  height: auto;
+}
+
+.advisor-9 img {
+  width: 185px;
+  height: auto;
 }
 
 h4 {
@@ -380,19 +558,19 @@ h4 {
 }/*end min-wide 600px*/
 
 
-  @media all and (min-width: 1140px) {
+  @media all and (min-width:1140px) {
 
     header {
       width: 1026px;
       margin: 0 auto;
+
     }
+
 
     body {
       width: 1026px;
       margin: 0 auto;
     }
-
-
 
 
 }/*end min-width 1140px*/
