@@ -42,6 +42,7 @@ a{
   padding: 5px;
   display:block;
   flex-direction:row-reverse;
+  float: right;
 
 }
 
