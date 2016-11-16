@@ -269,7 +269,10 @@ img{
   .header{
     display: block;
     background: #c0b283;
+  }
 
+  h1{
+    text-align: center;
   }
 
   .mainnav{
@@ -410,8 +413,9 @@ h4 {
     header {
       width: 1026px;
       margin: 0 auto;
-      text-align: center
+
     }
+
 
     body {
       width: 1026px;
