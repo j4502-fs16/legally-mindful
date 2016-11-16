@@ -62,6 +62,7 @@ a{
   border-bottom:1px solid black;
   background: #373737;
   font-family: 'Quattrocento', sans-serif;
+  font-size: 1.5em;
 
 
 }
@@ -75,7 +76,9 @@ a{
 .tab-group{
   display: flex;
   flex-flow:column;
-  background:  #dcd0c0;
+  background:#dcd0c0;
+  margin-right: 40px;
+  margin-left: 40px;
 
 }
 
@@ -84,11 +87,14 @@ a{
   color: #373737;
   display:block;
   font-weight: bold;
-  padding-left: .5em;
+  padding-top: .5em;
   margin-bottom: .5em;
   text-align: center;
   font-family: 'Quattrocento', sans-serif;
+  border-top: 1.5px solid white;
+
 }
+
 
 .tab a{
   background: #dcd0c0;
@@ -113,16 +119,18 @@ a{
   height:0px;
   overflow: hidden;
   transition: height .35s ease-in-out;
+  color:  #c0b283;
 }
 
 .tab input:checked ~ .tab-content{
-  height:9em;
+  height:15em;
 }
 
 .subnav{
   list-style: none;
   text-align: center;
   padding:0px;
+
 }
 
 .tab-content a{
@@ -142,11 +150,12 @@ a{
   background:#dcd0c0;
 font-family: 'Quattrocento', sans-serif;
 
+
 }
 
 
 h2{
-  border-bottom:2px solid #FBA100;
+  border-bottom:2px solid #c0b283;
   font-family: 'Quattrocento', sans-serif;
   font-weight: bold;
   font-size: 1.6em;
@@ -159,7 +168,7 @@ h2{
 
 
 .footer{
-  border-top: 1px solid #FBA100;
+  border-top: 1px solid #c0b283;
   margin-left: 10px;
   margin-top: 40px;
 
@@ -169,11 +178,11 @@ img{
   display: none;
 }
 
-.wrapperabout h2{
+ h2{
   text-align: center;
   background: white;
-  color:#6c648b;
-  font-family: 'Crimson Text', serif;
+  color:#373737;
+  font-family: 'Quattrocento', sans-serif;
   border: none;
   width: 100%;
   font-size: 2em;
@@ -181,12 +190,14 @@ img{
 }
 
   h3{
-    border-bottom:2px solid #6c648b;
+    border-bottom:2px solid #c0b283;
     font-family: 'Quattrocento', sans-serif;
     font-weight: bold;
     margin: 10px;
     padding-top: 10px;
   }
+
+
 
   h4{
       font-family: 'Quattrocento', serif;
@@ -195,12 +206,16 @@ img{
   }
 
   .summary1 h2:hover{
-    background: #fdd999;
+    background: #dcd0c0;
 
   }
 
   .summary2 h2:hover{
-    background: #fdd999;
+    background: #dcd0c0;
+
+  }
+  .summary3 h2:hover{
+    background: #dcd0c0;
 
   }
 
@@ -210,7 +225,7 @@ img{
 }
 
 .boards h4:hover{
-  background: #fdd999;
+  background: #dcd0c0;
 }
 
 .blog-post {
@@ -238,6 +253,66 @@ img{
   display: none;
 }
 
+.documentdatabase{
+  padding-top: 20px;
+}
+.documentdatabase h3{
+border: none;
+text-align: center;
+ background: #373737;
+ color:#c0b283;
+   font-family: 'Quattrocento', serif;
+ border: none;
+ margin-left: 90px;
+ margin-right:90px;
+
+ font-size: 1.5em;
+ border: none;
+
+}
+
+.documentdatabase h3:hover{
+  background: #f4f4f4;
+  text-decoration: underline;
+}
+
+.documentdatabase a{
+  text-decoration: none;
+  color:#373737;
+}
+
+.links a{
+  font-family: 'quattrocento sans', serif;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.2em;
+  color: #373737;
+}
+
+.links a:hover{
+background: #dcd0c0;
+}
+
+.groups h3{
+  border-bottom:2px solid #c0b283;
+  font-family: 'Quattrocento', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.groups a{
+  text: #373737;
+  text-decoration: none;
+}
+
+.groups a:hover{
+  background: #dcd0c0;
+}
+.groups p{
+  text: #373737;
+  text-decoration: none;
+}
 
 @media all and (min-width:600px) {
   nav ul{
@@ -296,11 +371,11 @@ img{
       }
 
       .tab label{
-        padding: 0 20px;
+
       }
 
       .tab label:hover ~ .tab-content{
-        height:12em;
+        height:14em;
       }
 
 
