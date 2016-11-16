@@ -42,7 +42,6 @@ a{
   padding: 5px;
   display:block;
   flex-direction:row-reverse;
-  float: right;
 
 }
 
@@ -303,17 +302,19 @@ background: #dcd0c0;
 }
 
 .groups a{
-  text: #373737;
+  color: #373737;
   text-decoration: none;
 }
 
 .groups a:hover{
   background: #dcd0c0;
 }
-.groups p{
-  text: #373737;
-  text-decoration: none;
+
+.groups p:hover{
+  background: #dcd0c0;
+
 }
+
 
 @media all and (min-width:600px) {
   nav ul{
