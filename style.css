@@ -357,22 +357,27 @@ background: #dcd0c0;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: 'read more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+  content: 'read less';
 }
 
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
-  padding: 0 .5em;
   color: #666;
   font-size: .9em;
+  font-style: italic;
+  font-weight: bold;
   line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background: #c0b283;
+  color: white;
 }
 
 @media all and (min-width:600px) {
