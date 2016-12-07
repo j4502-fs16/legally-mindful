@@ -77,15 +77,6 @@ a{
 
 }
 
-.button {
-  background-color: #000000;
-  color: #FFFFFF;
-  float: left;
-  padding: 10px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-}
 
 .tab-group{
   display: flex;
