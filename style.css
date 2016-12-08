@@ -307,6 +307,10 @@ img{
   color: white;
 }
 
+.foundernames {
+  padding-left: 20px;
+}
+
 @media all and (min-width:600px){
 
 /*.menu-trigger {display: none; }*/
@@ -508,10 +512,6 @@ background: #dcd0c0;
 
 .founder2{
   display:flex;
-}
-
-.foundernames {
-  padding-left: 20px;
 }
 
 .aboutdirectors {
