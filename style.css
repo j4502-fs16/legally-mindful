@@ -266,6 +266,47 @@ img{
   }
 }*/
 
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  color: #666;
+  font-size: .9em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background: #c0b283;
+  color: white;
+}
+
 @media all and (min-width:600px){
 
 /*.menu-trigger {display: none; }*/
@@ -339,48 +380,6 @@ margin-left: 60px;
 background: #dcd0c0;
 }
 
-.read-more-state {
-  display: none;
-}
-
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'read more';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'read less';
-}
-
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  color: #666;
-  font-size: .9em;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 2;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  background: #c0b283;
-  color: white;
-}
-
-@media all and (min-width:600px) {
   nav ul{
       display:none;
     }
@@ -490,22 +489,29 @@ background: #dcd0c0;
 
 .founder1 img{
   width: 135;
-  height:180;
+  height:140;
   float: left;
+  padding-top: 20px;
 }
 
 .founder2 img{
   width: 135;
   height:140;
   float: left;
+  padding-top: 20px;
 }
 
 .founder1{
   display:flex;
+
 }
 
 .founder2{
   display:flex;
+}
+
+.foundernames {
+  padding-left: 20px;
 }
 
 .aboutdirectors {
