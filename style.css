@@ -311,6 +311,25 @@ img{
   padding-left: 20px;
 }
 
+.aboutfounders img{
+  display: block;
+  margin: 10px;
+}
+
+.founder1 img{
+  width: 165;
+  height:170;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.founder2 img{
+  width: 165;
+  height:170;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 @media all and (min-width:600px){
 
 /*.menu-trigger {display: none; }*/
@@ -492,15 +511,15 @@ background: #dcd0c0;
 }
 
 .founder1 img{
-  width: 135;
-  height:140;
+  width: 165;
+  height:170;
   float: left;
   padding-top: 20px;
 }
 
 .founder2 img{
-  width: 135;
-  height:140;
+  width: 165;
+  height:170;
   float: left;
   padding-top: 20px;
 }
@@ -532,7 +551,7 @@ background: #dcd0c0;
 }
 
 .director-2 img {
-  width: 145px;
+  width: 185px;
   height: auto;
 }
 
@@ -572,7 +591,7 @@ background: #dcd0c0;
 }
 
 .advisor-5 img {
-  width: 165px;
+  width: 185px;
   height: auto;
 }
 
