@@ -673,6 +673,11 @@ nav a {
     padding-left: 25px;
 }
 
+.story img {
+  width: 70;
+  height: 70;
+}
+
 }/*end min-wide 600px*/
 
   @media all and (min-width:1140px) {
