@@ -48,14 +48,13 @@ a{
 }
 
 .mainnav{
+  display: none;
   list-style-type: none;
-  display: block;
   font-size:1.4em;
   line-height:2em;
   padding:0;
   text-align:center;
-  display: flex;
-  flex-flow:column nowrap;
+  margin: 0;
 }
 
 .mainnav li{
@@ -64,8 +63,6 @@ a{
   border-bottom:1px solid black;
   background: #dcd0c0;
   font-family: 'Quattrocento', sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .mainnav a{
@@ -91,7 +88,8 @@ nav a {
 .menu-trigger {
   order: 1;
   font-size: 2em;
-  width: 2em;
+  width: 100%;
+  padding-bottom: 5px;
 }
 
 .tab-group{
