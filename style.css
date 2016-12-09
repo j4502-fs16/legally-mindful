@@ -40,7 +40,6 @@ a{
 
 .topsearch{
   background: #c0b283;
-  padding: 5px;
   display:block;
   flex-direction:row-reverse;
   float: right;
@@ -59,15 +58,14 @@ a{
 
 .mainnav li{
   /*display:none;*/
-  border-top:1px solid black;
   border-bottom:1px solid black;
-  background: #dcd0c0;
   font-family: 'Quattrocento', sans-serif;
 }
 
 .mainnav a{
   text-decoration: none;
   color: #373737;
+  background-color: white;
   font-weight: bold;
 
 }
@@ -78,7 +76,8 @@ nav ul li {
 }
 
 nav a {
-    color: #373737;
+    color: white;
+    background-color: #373737;
     display: block;
     text-decoration: none;
     padding-left: 25px;
@@ -90,6 +89,15 @@ nav a {
   font-size: 2em;
   width: 100%;
   padding-bottom: 5px;
+}
+
+.menu-trigger:after {
+  font-family: 'Quattrocento', sans-serif;
+  color: white;
+  background-color: #373737;
+  content: "MENU";
+  font-size: .8em;
+  padding: 3px;
 }
 
 .tab-group{
@@ -686,7 +694,6 @@ nav a {
       margin: 0 auto;
 
     }
-
 
     body {
       width: 1026px;
