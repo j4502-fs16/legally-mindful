@@ -212,7 +212,7 @@ img{
 .swirlsbox{
   display:flex;
   flex-flow: row nonwrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .resourcewrapper h2{
@@ -737,11 +737,19 @@ nav a {
 .resourcewrapper{
   display: flex;
   flex-flow: row nonwrap;
+  justify-content: space-around;
 }
 
-.resourcebox a:hover{
-  background: #dcd0c0;
+.resource2{
+
+
+  border-top: none;
+  border-bottom: none;
 }
+
+
+
+
 
 
 
@@ -761,10 +769,7 @@ nav a {
       margin: 0 auto;
     }
 
-    span {
-      transform: scale(-1);
-    filter: flipH;
-    -ms-filter: flipH;
+
 }
 
 
