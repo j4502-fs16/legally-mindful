@@ -215,6 +215,12 @@ img{
   justify-content: center;
 }
 
+.resourcewrapper h2{
+  border:none;
+}
+
+
+
 .wrapperabout h2{
   text-align: center;
   background: white;
@@ -715,6 +721,14 @@ nav a {
   width: 70;
   height: 70;
 }
+
+
+.resourcewrapper{
+  display: flex;
+  flex-flow: row nonwrap;
+}
+
+
 
 }/*end min-wide 600px*/
 
