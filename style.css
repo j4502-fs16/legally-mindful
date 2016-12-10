@@ -1,4 +1,7 @@
 body{
+  margin:0;
+  padding:0;
+}
 
 p{
   font-family: 'crimson text', serif;
@@ -39,7 +42,7 @@ a{
 }
 
 .topsearch{
-  background: #373737;
+  background: #fff;
   display:block;
   padding: 5px;
   flex-direction:row-reverse;
