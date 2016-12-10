@@ -204,18 +204,7 @@ img{
   display: none;
 }
 
-.swirls img{
-  display: block;
-
-}
-
-.swirlsbox{
-  display:flex;
-  flex-flow: row nonwrap;
-  justify-content: space-around;
-}
-
-.resourcewrapper h2{
+/*.resourcewrapper h2{
   border:none;
   text-align: left;
 }
@@ -228,9 +217,7 @@ img{
 .resource2{
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-}
-
-
+}*/
 
 .wrapperabout h2{
   text-align: center;
@@ -741,17 +728,29 @@ nav a {
   justify-content: space-around;
 }
 
-.resource2{
-
-
-  border-top: none;
-  border-bottom: none;
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .4rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
+.resourcebox {
+  width: 30%;
+}
 
+.swirls img{
+  display: block;
+  width: 12rem;
+  height: 10rem;
+  height: relative;
+}
 
-
-
+.swirlsbox{
+  display:flex;
+  flex-flow: row nonwrap;
+  justify-content: space-around;
+}
 
 
 }/*end min-wide 600px*/
