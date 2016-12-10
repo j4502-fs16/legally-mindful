@@ -206,8 +206,25 @@ img{
 
 .swirls img{
   display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+}
+
+.swirlsbox{
+  display:flex;
+    flex-flow: row nonwrap;
+    justify-content: space-around;
+
+}
+
+.swirls-1{
+  display:flex;
+}
+
+.swirls-2{
+  display:flex;
+}
+
+.swirls-3{
+  display:flex;
 }
 
 .wrapperabout h2{
@@ -727,11 +744,7 @@ nav a {
       margin: 0 auto;
     }
 
-    span {
-      transform: scale(-1);
-    filter: flipH;
-    -ms-filter: flipH;
-}
+
 
 
 }/*end min-width 1140px*/
