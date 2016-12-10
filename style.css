@@ -68,7 +68,7 @@ a{
 
 .mainnav a{
   text-decoration: none;
-  color: #373737;
+  color: #465c8b;
   background-color: white;
   font-weight: bold;
 
@@ -81,7 +81,7 @@ nav ul li {
 
 nav a {
     color: white;
-    background-color: #373737;
+    background-color: #465c8b;
     display: block;
     text-decoration: none;
     padding-left: 25px;
@@ -113,7 +113,7 @@ nav a {
 
 .tab label{
   background: #dcd0c0;
-  color: #373737;
+  color: #465c8b;
   display:block;
   font-weight: bold;
   padding-left: .5em;
@@ -486,7 +486,7 @@ background: #dcd0c0;
       display: flex;
       flex-flow: row;
       justify-content: space-around;
-      background: #373737;
+      background: #30415d;
       color: white;
     }
 
@@ -494,7 +494,7 @@ background: #dcd0c0;
       border: none;
       padding: 10px;
       font-size: 1.5em;
-      background: #373737;
+      background: #465c8b;
       color: white;
 
     }
