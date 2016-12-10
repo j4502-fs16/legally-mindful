@@ -396,8 +396,8 @@ img{
 
 .documentdatabase h3{
   text-align: center;
-  background: #373737;
-  color:#c0b283;
+  background: #c0b283;
+  color:white;
   font-family: "Lato", sans-serif;
   border: none;
 margin-right: 60px;
@@ -457,11 +457,6 @@ margin-left: 60px;
 
 }
 
-.goups p{
-  font-family: "Lato", sans-serif;
-  color: #373737;
-
-}
 .groups a{
   font-family: "Lato", sans-serif;
   color: #373737;
@@ -502,8 +497,8 @@ background: #dcd0c0;
 
     .mainnav li{
       border: none;
-      padding: 10px;
-      font-size: 1.5em;
+      padding: .2rem;
+      font-size: 1.3rem;
       background: #373737;
       color: white;
 
