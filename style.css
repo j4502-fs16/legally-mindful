@@ -1,7 +1,4 @@
 body{
-  margin:0;
-  padding:0;
-}
 
 p{
   font-family: 'crimson text', serif;
@@ -42,7 +39,7 @@ a{
 }
 
 .topsearch{
-  background: #063e53;
+  background: #373737;
   display:block;
   padding: 5px;
   flex-direction:row-reverse;
@@ -476,7 +473,7 @@ background: #dcd0c0;
       display: flex;
       flex-flow: row;
       justify-content: space-around;
-      background: #063e53;
+      background: #373737;
       color: white;
     }
 
@@ -484,14 +481,14 @@ background: #dcd0c0;
       border: none;
       padding: 10px;
       font-size: 1.5em;
-      background: #063e53;
+      background: #373737;
       color: white;
 
     }
 
     .mainnav a{
       color: white;
-      background: #063e53;
+      background: #373737;
       width: 100%;
     }
 
@@ -685,7 +682,7 @@ h4 {
   /*display:none;*/
   border-top:1px solid black;
   border-bottom:1px solid black;
-  background: #063e53;
+  background: #373737;
   font-family: 'Quattrocento', sans-serif;
 }
 
