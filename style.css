@@ -201,6 +201,11 @@ img{
   display: none;
 }
 
+.swirls img{
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .wrapperabout h2{
   text-align: center;
   background: white;
