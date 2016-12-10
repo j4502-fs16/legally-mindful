@@ -205,9 +205,14 @@ img{
 }
 
 .swirls img{
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+  display: block;
+
+}
+
+.swirlsbox{
+  display:flex;
+  flex-flow: row nonwrap;
+  justify-content: center;
 }
 
 .wrapperabout h2{
