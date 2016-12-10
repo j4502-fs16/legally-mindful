@@ -203,7 +203,8 @@ img{
 
 .swirls img{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
+  flex-wrap: wrap;
 }
 
 .wrapperabout h2{
