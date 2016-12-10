@@ -250,6 +250,17 @@ img{
     background: #dcd0c0;
   }
 
+  .linkssummary3 a{
+    color: black;
+    text-decoration: underline;
+  }
+
+  .linkssummary3 a:hover{
+    background: #dcd0c0;
+  }
+
+
+
 .boards a{
   color: black;
 
