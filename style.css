@@ -11,10 +11,13 @@ p{
 }
 
 header{
-  background: #c0b283;
+
   width:100%;
   margin:0;
   padding:10px;
+}
+header img{
+  display:block;
 }
 
 h1{
