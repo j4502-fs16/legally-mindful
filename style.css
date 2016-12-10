@@ -18,6 +18,7 @@ header{
 }
 header img{
   display:block;
+  width: 100%;
 }
 
 h1{
@@ -26,7 +27,6 @@ h1{
   padding: 10px;
   padding-left: 10px;
   margin: 0;
-  color:white;
   text-align: center;
   justify-content: center;
   font-family: 'Trirong', serif;
@@ -409,10 +409,20 @@ margin-left: 60px;
 
 }
 .documentdatabase h3:hover{
-  background: #f4f4f4;
-  color:#c0b283;
+  background: #c0b283;
+  color:white;
 }
 
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .2rem;
+  margin-left: 4rem;;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #c0b283;
+}
 
 @media all and (min-width: 600px){
 
@@ -728,22 +738,15 @@ nav a {
   justify-content: space-around;
 }
 
-.resourcewrapper h3 {
-  padding: .6rem;
-  margin: .4rem;
-  text-align: center;
-  font-size: 2rem;
-}
-
 .resourcebox {
   width: 30%;
 }
 
 .swirls img{
   display: block;
-  width: 12rem;
+  width: 10rem;
   height: 10rem;
-  height: relative;
+  padding: 10px;
 }
 
 .swirlsbox{
@@ -752,6 +755,14 @@ nav a {
   justify-content: space-around;
 }
 
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #c0b283;
+}
 
 }/*end min-wide 600px*/
 
