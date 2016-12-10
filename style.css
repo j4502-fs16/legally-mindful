@@ -217,6 +217,17 @@ img{
 
 .resourcewrapper h2{
   border:none;
+  text-align: left;
+}
+
+.resourcelinks a:hover{
+  background: brown;
+}
+
+
+.resource2{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 
@@ -726,6 +737,10 @@ nav a {
 .resourcewrapper{
   display: flex;
   flex-flow: row nonwrap;
+}
+
+.resourcebox a:hover{
+  background: #dcd0c0;
 }
 
 
