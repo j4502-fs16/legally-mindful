@@ -19,6 +19,7 @@ header{
 header img{
   display:block;
   width: 100%;
+  height: 7rem;
 }
 
 h1{
@@ -425,6 +426,18 @@ margin-left: 60px;
 }
 
 @media all and (min-width: 600px){
+
+  header{
+
+    width:100%;
+    margin:0;
+
+  }
+  header img{
+    display:block;
+    width: 100%;
+    height: auto;
+  }
 
 /*.menu-trigger {display: none; }*/
 .aboutdirectors img {
