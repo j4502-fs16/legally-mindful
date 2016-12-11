@@ -453,6 +453,29 @@ img{
 }
 
 
+.aff-1 h4{
+  color: black;
+  font-size: 1.1rem;
+}
+
+.aff-2 h4{
+  color: black;
+  font-size: 1.1rem;
+}
+
+.getinvolvedtitles h2{
+  text-align: center;
+  background: white;
+  color:#373737;
+  font-family: "Lato", sans-serif;
+  border: none;
+  width: 100%;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+
+}
+
 @media all and (min-width: 600px){
 
   header{
@@ -471,20 +494,6 @@ img{
 .aboutdirectors img {
   display: none;
 }
-
-.getinvolvedtitles h2{
-  text-align: center;
-  background: white;
-  color:#373737;
-  font-family: "Lato", sans-serif;
-  border: none;
-  width: 100%;
-  font-size: 2em;
-  border: none;
-  padding-bottom: 20px;
-
-}
-
 
 
 .links p{
@@ -727,7 +736,7 @@ background: #dcd0c0;
 }
 
 .aff-2 img {
-  width: 200px;
+  width: 220px;
   height: auto;
 }
 
@@ -739,14 +748,6 @@ background: #dcd0c0;
 .aff-2 {
   margin-left: 4rem;
   margin-right: 4rem;
-}
-
-.aff-1 h4{
-  color: black;
-}
-
-.aff-2 h4{
-  color: black;
 }
 
 
