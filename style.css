@@ -460,12 +460,12 @@ img{
 
 
 .aff-1 h4{
-  color: black;
+  color: #c0b283;
   font-size: 1.1rem;
 }
 
 .aff-2 h4{
-  color: black;
+  color: #c0b283;
   font-size: 1.1rem;
 }
 
@@ -484,6 +484,16 @@ img{
 }
 
 @media all and (min-width: 600px){
+
+  .aff-1 h4{
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  .aff-2 h4{
+    color: black;
+    font-size: 1.1rem;
+  }
 
   header{
 
