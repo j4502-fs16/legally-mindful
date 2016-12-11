@@ -18,14 +18,6 @@ header{
 }
 header img{
   display:block;
-<<<<<<< HEAD
-=======
-  width: 100%;
-  height: 6rem;
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 }
 
 h1{
@@ -242,6 +234,7 @@ img{
   width: 100%;
   font-size: 2em;
   padding-bottom: 3px;
+
 }
 
   h3{
@@ -397,42 +390,9 @@ img{
   padding-left: 20px;
 }
 
-<<<<<<< HEAD
-=======
-.documentdatabase h3{
-  text-align: center;
-  background: #c0b283;
-  color:white;
-  font-family: "Lato", sans-serif;
-  border: none;
-  margin-right: 60px;
-  margin-left: 60px;
-  font-size: 1.5rem;
-  border: none;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.documentdatabase h3:hover{
-  background: #c0b283;
-  color:white;
-}
->>>>>>> origin/master
 
 
 @media all and (min-width: 600px){
-
-  header{
-
-    width:100%;
-    margin:0;
-
-  }
-  header img{
-    display:block;
-    width: 100%;
-    height: auto;
-  }
 
 /*.menu-trigger {display: none; }*/
 .aboutdirectors img {
@@ -542,7 +502,7 @@ background: #dcd0c0;
     }
 
     .mainnav a:hover {
-      background:#373737;
+      background:#dcd0c0;
       color: white;
       padding: 5px;
     }
@@ -757,59 +717,6 @@ nav a {
   height: 70;
 }
 
-<<<<<<< HEAD
-=======
-
-.resourcewrapper{
-  display: flex;
-  flex-flow: row nonwrap;
-  justify-content: space-around;
-}
-
-.resourcebox {
-  width: 30%;
-}
-
-.swirls img{
-  display: block;
-  width: 10rem;
-  height: 10rem;
-  padding: 10px;
-}
-
-.swirlsbox{
-  display:flex;
-  flex-flow: row nonwrap;
-  justify-content: space-around;
-}
-
-.resourcewrapper h3 {
-  padding: .6rem;
-  margin: .2rem;
-  text-align: center;
-  font-size: 1.8rem;
-  color: white;
-  background-color: #c0b283;
-}
-
-.documentdatabase h3{
-  text-align: center;
-  background: #c0b283;
-  color:white;
-  font-family: "Lato", sans-serif;
-  border: none;
-margin-right: 60px;
-margin-left: 60px;
-  font-size: 2em;
-  border: none;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 }/*end min-wide 600px*/
 
   @media all and (min-width:1140px) {
