@@ -1,3 +1,25 @@
+.image-wrapper {
+    position: relative;
+    width: 250px;
+
+}
+.image-wrapper p {
+    position: absolute;
+    text-align: center;
+    left: 380px;
+    top: 75px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #FFF;
+    width: 100%;
+    color: #FFF;
+    margin: 5px;
+}
+
+
+
+
+
 body{
   margin:0;
   padding:0;
