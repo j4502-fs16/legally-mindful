@@ -53,6 +53,10 @@ h1{
   font-weight: lighter;
 }
 
+.readblog h1{
+  color: black;
+}
+
 a{
   text-decoration: none;
 }
@@ -486,6 +490,10 @@ img{
   border: none;
   padding-bottom: 20px;
 
+}
+
+.readblog a {
+  color: #c0b283;
 }
 
 @media all and (min-width: 600px){
