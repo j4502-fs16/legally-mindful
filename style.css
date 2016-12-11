@@ -319,6 +319,10 @@ img{
   background: #dcd0c0;
 }
 
+.directors h4:hover{
+  background: #dcd0c0;
+}
+
 .blog-post {
   display: flex;
   flex-flow: row wrap;
@@ -719,6 +723,35 @@ background: #dcd0c0;
   width: 185px;
   height: auto;
 }
+
+.aff-1 img {
+  width: 200px;
+  height: auto;
+}
+
+.aff-2 img {
+  width: 200px;
+  height: auto;
+}
+
+.aff-1 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.aff-2 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.aff-1 h4{
+  color: black;
+}
+
+.aff-2 h4{
+  color: black;
+}
+
 
 h4 {
   margin: 0;
