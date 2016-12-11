@@ -14,7 +14,7 @@ header{
 
   width:100%;
   margin:0;
-  padding:10px;
+
 }
 header img{
   display:block;
@@ -42,7 +42,7 @@ a{
 }
 
 .topsearch{
-  background: #c0b283;
+  background: #fff;
   display:block;
   padding: 5px;
   flex-direction:row-reverse;
@@ -202,19 +202,20 @@ h2{
 
 
 
-.swirls img{
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+/*.resourcewrapper h2{
+  border:none;
+  text-align: left;
 }
 
-.swirlsbox {
-display:flex;
-flex-flow: row nonwrap;
-justify-content: space-around;
-
-
+.resourcelinks a:hover{
+  background: brown;
 }
+
+
+.resource2{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}*/
 
 .wrapperabout h2{
   text-align: center;
@@ -237,8 +238,6 @@ justify-content: space-around;
   padding-bottom: 3px;
 
 }
-
-
 
   h3{
     border-bottom:2px solid #373737;
@@ -395,11 +394,32 @@ justify-content: space-around;
   padding-top: 20px;
   padding-left: 20px;
 }
+<<<<<<< HEAD
 .logo1 img{
   width: 165;
   height:170;
   padding-top: 20px;
   padding-left: 20px;
+=======
+
+.documentdatabase h3{
+  text-align: center;
+  background: #373737;
+  color:#c0b283;
+  font-family: "Lato", sans-serif;
+  border: none;
+margin-right: 60px;
+margin-left: 60px;
+  font-size: 2em;
+  border: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.documentdatabase h3:hover{
+  background: #f4f4f4;
+  color:#c0b283;
+>>>>>>> origin/master
 }
 
 
@@ -423,24 +443,7 @@ justify-content: space-around;
 
 }
 
-.documentdatabase h3{
-  text-align: center;
-  background: #373737;
-  color:#c0b283;
-  font-family: "Lato", sans-serif;
-  border: none;
-margin-right: 60px;
-margin-left: 60px;
-  font-size: 2em;
-  border: none;
-  padding-bottom: 20px;
-  padding-top: 20px;
 
-}
-.documentdatabase h3:hover{
-  background: #f4f4f4;
-  color:#c0b283;
-}
 
 .links p{
   font-family: "Lato", sans-serif;
@@ -727,6 +730,38 @@ nav a {
   height: 70;
 }
 
+
+.resourcewrapper{
+  display: flex;
+  flex-flow: row nonwrap;
+  justify-content: space-around;
+}
+
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.resourcebox {
+  width: 30%;
+}
+
+.swirls img{
+  display: block;
+  width: 12rem;
+  height: 10rem;
+  height: relative;
+}
+
+.swirlsbox{
+  display:flex;
+  flex-flow: row nonwrap;
+  justify-content: space-around;
+}
+
+
 }/*end min-wide 600px*/
 
   @media all and (min-width:1140px) {
@@ -743,10 +778,7 @@ nav a {
       margin: 0 auto;
     }
 
-    span {
-      transform: scale(-1);
-    filter: flipH;
-    -ms-filter: flipH;
+
 }
 
 
