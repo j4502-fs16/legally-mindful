@@ -17,9 +17,6 @@
 }
 
 
-
-
-
 body{
   margin:0;
   padding:0;
@@ -430,11 +427,6 @@ img{
   padding-top: 20px;
 }
 
-.documentdatabase h3:hover{
-  background: #c0b283;
-  color:white;
-}
-
 .resourcewrapper h3 {
   padding: .6rem;
   margin: .2rem;
@@ -444,6 +436,11 @@ img{
   font-size: 1rem;
   color: white;
   background-color: #c0b283;
+}
+
+.resourcewrapper h3:hover{
+  background-color: white;
+  color: #c0b283;
 }
 
 @media all and (min-width: 600px){
