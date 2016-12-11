@@ -22,6 +22,9 @@ header img{
 =======
   width: 100%;
   height: 6rem;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 
@@ -419,6 +422,18 @@ img{
 
 @media all and (min-width: 600px){
 
+  header{
+
+    width:100%;
+    margin:0;
+
+  }
+  header img{
+    display:block;
+    width: 100%;
+    height: auto;
+  }
+
 /*.menu-trigger {display: none; }*/
 .aboutdirectors img {
   display: none;
@@ -791,6 +806,9 @@ margin-left: 60px;
   padding-top: 20px;
 }
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }/*end min-wide 600px*/
 
