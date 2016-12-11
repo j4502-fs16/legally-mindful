@@ -323,6 +323,17 @@ img{
   background: #dcd0c0;
 }
 
+.aff-1 h4:hover {
+  background: white;
+ color: #c0b283;
+  }
+
+  .aff-2 h4:hover {
+    background: white;
+   color: #c0b283;
+    }
+
+
 .blog-post {
   display: flex;
   flex-flow: row wrap;
