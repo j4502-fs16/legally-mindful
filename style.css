@@ -220,9 +220,7 @@ h2{
 
 }
 
-img{
-  display: none;
-}
+
 
 /*.resourcewrapper h2{
   border:none;
@@ -308,7 +306,10 @@ img{
     background: #dcd0c0;
   }
 
-
+#hover-logo a:hover{
+  color: #c0b283;
+  background-color: #fff;
+}
 
 .boards a{
   color: black;
@@ -412,6 +413,13 @@ img{
   padding-top: 20px;
   padding-left: 20px;
 }
+<<<<<<< HEAD
+.logo1 img{
+  width: 165;
+  height:170;
+  padding-top: 20px;
+  padding-left: 20px;
+=======
 
 .documentdatabase h3{
   text-align: center;
@@ -427,6 +435,20 @@ img{
   padding-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.documentdatabase h3:hover{
+<<<<<<< HEAD
+  background: #f4f4f4;
+  color:#c0b283;
+>>>>>>> origin/master
+=======
+  background: #c0b283;
+  color:white;
+>>>>>>> origin/master
+}
+
+>>>>>>> origin/master
 .resourcewrapper h3 {
   padding: .6rem;
   margin: .2rem;
