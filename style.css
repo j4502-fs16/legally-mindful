@@ -447,11 +447,6 @@ img{
   color: #c0b283;
 }
 
-#hover-logo a:hover{
-  color: #c0b283;
-  background-color: #fff;
-}
-
 
 .aff-1 h4{
   color: black;
@@ -462,6 +457,7 @@ img{
   color: black;
   font-size: 1.1rem;
 }
+
 
 .getinvolvedtitles h2{
   text-align: center;
