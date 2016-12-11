@@ -442,6 +442,11 @@ img{
   padding-top: 20px;
 }
 
+.documentdatabase h3:hover {
+  color: #c0b283;
+  background: white;
+}
+
 .resourcewrapper h3 {
   padding: .6rem;
   margin: .2rem;
