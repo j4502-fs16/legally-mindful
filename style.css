@@ -443,6 +443,11 @@ img{
   color: #c0b283;
 }
 
+#hover-logo a:hover{
+  color: #c0b283;
+  background-color: #fff;
+}
+
 @media all and (min-width: 600px){
 
   header{
