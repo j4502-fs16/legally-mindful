@@ -18,6 +18,8 @@ header{
 }
 header img{
   display:block;
+  width: 100%;
+  height: 6rem;
 }
 
 h1{
@@ -26,7 +28,6 @@ h1{
   padding: 10px;
   padding-left: 10px;
   margin: 0;
-  color:white;
   text-align: center;
   justify-content: center;
   font-family: 'Trirong', serif;
@@ -236,7 +237,6 @@ h2{
   width: 100%;
   font-size: 2em;
   padding-bottom: 3px;
-
 }
 
   h3{
@@ -404,26 +404,53 @@ h2{
 
 .documentdatabase h3{
   text-align: center;
-  background: #373737;
-  color:#c0b283;
+  background: #c0b283;
+  color:white;
   font-family: "Lato", sans-serif;
   border: none;
-margin-right: 60px;
-margin-left: 60px;
-  font-size: 2em;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-size: 1.5rem;
   border: none;
   padding-bottom: 20px;
   padding-top: 20px;
-
 }
+
 .documentdatabase h3:hover{
+<<<<<<< HEAD
   background: #f4f4f4;
   color:#c0b283;
 >>>>>>> origin/master
+=======
+  background: #c0b283;
+  color:white;
+>>>>>>> origin/master
 }
 
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .2rem;
+  margin-left: 4rem;;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #c0b283;
+}
 
 @media all and (min-width: 600px){
+
+  header{
+
+    width:100%;
+    margin:0;
+
+  }
+  header img{
+    display:block;
+    width: 100%;
+    height: auto;
+  }
 
 /*.menu-trigger {display: none; }*/
 .aboutdirectors img {
@@ -456,11 +483,6 @@ margin-left: 60px;
 
 }
 
-.goups p{
-  font-family: "Lato", sans-serif;
-  color: #373737;
-
-}
 .groups a{
   font-family: "Lato", sans-serif;
   color: #373737;
@@ -501,8 +523,8 @@ background: #dcd0c0;
 
     .mainnav li{
       border: none;
-      padding: 10px;
-      font-size: 1.5em;
+      padding: .2rem;
+      font-size: 1.3rem;
       background: #373737;
       color: white;
 
@@ -737,22 +759,15 @@ nav a {
   justify-content: space-around;
 }
 
-.resourcewrapper h3 {
-  padding: .6rem;
-  margin: .4rem;
-  text-align: center;
-  font-size: 2rem;
-}
-
 .resourcebox {
   width: 30%;
 }
 
 .swirls img{
   display: block;
-  width: 12rem;
+  width: 10rem;
   height: 10rem;
-  height: relative;
+  padding: 10px;
 }
 
 .swirlsbox{
@@ -761,6 +776,28 @@ nav a {
   justify-content: space-around;
 }
 
+.documentdatabase h3{
+  text-align: center;
+  background: #c0b283;
+  color:white;
+  font-family: "Lato", sans-serif;
+  border: none;
+margin-right: 60px;
+margin-left: 60px;
+  font-size: 2rem;
+  border: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.resourcewrapper h3 {
+  padding: .6rem;
+  margin: .2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #c0b283;
+}
 
 }/*end min-wide 600px*/
 
