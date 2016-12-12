@@ -15,6 +15,10 @@ p{
   font-size: 1.2em;
 }
 
+a{
+  text-decoration: none;
+}
+
 header{
 
   width:100%;
@@ -28,12 +32,13 @@ header img{
 }
 
 .mobilehead h1{
-  color:black;
+  color:white;
   text-align: center;
+  font-family: 'Quattrocento', sans-serif;
 }
 
 .mobilehead{
-  background: #dcd0c0;
+  background: #c0b283;
 }
 
 h1{
@@ -50,10 +55,6 @@ h1{
 
 .readblog h1{
   color: black;
-}
-
-a{
-  text-decoration: none;
 }
 
 .docmail a{
@@ -352,13 +353,13 @@ img{
   flex-flow: column wrap;
 }
 
-a:visited {
-  color: #c0b283;
+.contactlinks a:visited {
+  color: #a76b29;
   text-decoration: underline;
 }
 
-a:link {
-    color: #c0b283;
+.contactlinks a:link {
+    color: #a76b29;
     text-decoration: underline;
 }
 
@@ -506,7 +507,13 @@ a:link {
 }
 
 .readblog a {
-  color: #c0b283;
+  color: #a76b29;
+  text-decoration: none;
+}
+
+.story a {
+color: #a76b29;
+text-decoration: none;
 }
 
 @media all and (min-width: 600px){
@@ -906,13 +913,13 @@ margin-left: 60px;
     .image-wrapper h1 {
         position: absolute;
         text-align: center;
-
+font-family: 'Quattrocento', sans-serif;
         top: 50px;
         padding: 10px;
         font-size: 35px;
 
         width: 100%;
-        color: black;
+        color: white;
         margin: 5px;
 
 }
@@ -944,13 +951,13 @@ margin-left: 60px;
     .image-wrapper h1 {
         position: absolute;
         text-align: center;
-
+font-family: 'Quattrocento', sans-serif;
         top: 50px;
         padding: 10px;
         font-size: 35px;
 
         width: 100%;
-        color: black;
+        color: white;
         margin: 5px;
 
 }
