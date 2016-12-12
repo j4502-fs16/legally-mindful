@@ -1,20 +1,7 @@
-.image-wrapper {
-    position: relative;
-    width: 250px;
 
+.image-wrapper{
+  display:none;
 }
-.image-wrapper p {
-    position: absolute;
-    text-align: center;
-    left: 380px;
-    top: 50px;
-    padding: 10px;
-    font-size: 35px;
-    border: 1px solid #FFF;
-    width: 100%;
-    color: #FFF;
-    margin: 5px;
-
 
 body{
   margin:0;
@@ -38,6 +25,15 @@ header img{
   display:block;
   width: 100%;
   height: 6rem;
+}
+
+.mobilehead h1{
+  color:black;
+  text-align: center;
+}
+
+.mobilehead{
+  background: #dcd0c0;
 }
 
 h1{
@@ -897,6 +893,31 @@ margin-left: 60px;
 
 }/*end min-wide 600px*/
 
+@media all and (min-width:800px){
+.mobilehead{
+  display:none;
+}
+    .image-wrapper {
+      display: block;
+        position: relative;
+        width: 100%;
+
+    }
+    .image-wrapper h1 {
+        position: absolute;
+        text-align: center;
+
+        top: 50px;
+        padding: 10px;
+        font-size: 35px;
+
+        width: 100%;
+        color: black;
+        margin: 5px;
+
+}
+}
+
   @media all and (min-width:1140px) {
 
     header {
@@ -911,6 +932,26 @@ margin-left: 60px;
       margin: 0 auto;
     }
 
+.mobilehead{
+  display:none;
+}
+    .image-wrapper {
+      display: block;
+        position: relative;
+        width: 100%;
+
+    }
+    .image-wrapper h1 {
+        position: absolute;
+        text-align: center;
+
+        top: 50px;
+        padding: 10px;
+        font-size: 35px;
+
+        width: 100%;
+        color: black;
+        margin: 5px;
 
 }
 
