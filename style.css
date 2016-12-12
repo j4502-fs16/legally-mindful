@@ -352,7 +352,6 @@ img{
   flex-flow: column wrap;
 }
 
-<<<<<<< HEAD
 .contactlinks a:visited {
   color: #c0b283;
   text-decoration: underline;
@@ -363,8 +362,6 @@ img{
     text-decoration: underline;
 }
 
-=======
->>>>>>> origin/master
 .read-blog {
   display: flex;
   flex-flow: row wrap;
