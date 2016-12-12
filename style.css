@@ -509,11 +509,19 @@ img{
   color: #c0b283;
 }
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 a {
   text-decoration: none;
 =======
 .contact-form a {
+=======
+.contactform a:visited {
+  color: #c0b283;
+}
+
+.contactform a:link {
+>>>>>>> Stashed changes
   color: #c0b283;
 >>>>>>> origin/master
 }
