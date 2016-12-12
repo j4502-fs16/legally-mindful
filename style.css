@@ -356,6 +356,16 @@ img{
   flex-flow: column wrap;
 }
 
+a:visited {
+  color: #c0b283;
+  text-decoration: underline;
+}
+
+a:link {
+    color: #c0b283;
+    text-decoration: underline;
+}
+
 .read-blog {
   display: flex;
   flex-flow: row wrap;
