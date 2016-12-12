@@ -15,6 +15,10 @@ p{
   font-size: 1.2em;
 }
 
+a{
+  text-decoration: none;
+}
+
 header{
 
   width:100%;
@@ -50,10 +54,6 @@ h1{
 
 .readblog h1{
   color: black;
-}
-
-a{
-  text-decoration: none;
 }
 
 .docmail a{
@@ -353,12 +353,12 @@ img{
 }
 
 .contactlinks a:visited {
-  color: #c0b283;
+  color: #a76b29;
   text-decoration: underline;
 }
 
 .contactlinks a:link {
-    color: #c0b283;
+    color: #a76b29;
     text-decoration: underline;
 }
 
@@ -506,7 +506,13 @@ img{
 }
 
 .readblog a {
-  color: #c0b283;
+  color: #a76b29;
+  text-decoration: none;
+}
+
+.story a {
+color: #a76b29;
+text-decoration: none;
 }
 
 @media all and (min-width: 600px){
