@@ -352,12 +352,12 @@ img{
   flex-flow: column wrap;
 }
 
-a:visited {
+.contactlinks a:visited {
   color: #c0b283;
   text-decoration: underline;
 }
 
-a:link {
+.contactlinks a:link {
     color: #c0b283;
     text-decoration: underline;
 }
@@ -507,6 +507,10 @@ a:link {
 
 .readblog a {
   color: #c0b283;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media all and (min-width: 600px){
