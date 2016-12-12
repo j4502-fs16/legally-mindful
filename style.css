@@ -32,8 +32,9 @@ header img{
 }
 
 .mobilehead h1{
-  color:black;
+  color:white;
   text-align: center;
+  font-family: 'Quattrocento', sans-serif;
 }
 
 .mobilehead{
@@ -912,13 +913,13 @@ margin-left: 60px;
     .image-wrapper h1 {
         position: absolute;
         text-align: center;
-
+font-family: 'Quattrocento', sans-serif;
         top: 50px;
         padding: 10px;
         font-size: 35px;
 
         width: 100%;
-        color: black;
+        color: white;
         margin: 5px;
 
 }
@@ -950,13 +951,13 @@ margin-left: 60px;
     .image-wrapper h1 {
         position: absolute;
         text-align: center;
-
+font-family: 'Quattrocento', sans-serif;
         top: 50px;
         padding: 10px;
         font-size: 35px;
 
         width: 100%;
-        color: black;
+        color: white;
         margin: 5px;
 
 }
