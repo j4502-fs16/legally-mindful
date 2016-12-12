@@ -294,17 +294,17 @@ img{
   }
 
   .summary1 h2:hover{
-    background: #dcd0c0;
+    background: #c0b283;
 
   }
 
   .summary2 h2:hover{
-    background: #dcd0c0;
+    background: #c0b283;
 
   }
 
   .summary3 h3:hover{
-    background: #dcd0c0;
+    background: #c0b283;
   }
 
   .linkssummary3 a{
@@ -313,7 +313,7 @@ img{
   }
 
   .linkssummary3 a:hover{
-    background: #dcd0c0;
+    background: #c0b283
   }
 
 
@@ -324,11 +324,11 @@ img{
 }
 
 .boards h4:hover{
-  background: #dcd0c0;
+  background: #c0b283;
 }
 
 .directors h4:hover{
-  background: #dcd0c0;
+  background: #c0b283;
 }
 
 .aff-1 h4:hover {
@@ -355,12 +355,12 @@ img{
 
 .contactlinks a:visited {
   color: #a76b29;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .contactlinks a:link {
     color: #a76b29;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .read-blog {
@@ -566,7 +566,7 @@ text-decoration: none;
 .groups a:hover{
   font-family: "Lato", sans-serif;
   color: #373737;
-background: #dcd0c0;
+background: #c0b283;
 }
 
   nav ul{
@@ -611,7 +611,7 @@ background: #dcd0c0;
     }
 
     .mainnav a:hover {
-      background:#dcd0c0;
+      background:#c0b283;
       color: white;
       padding: 5px;
     }
@@ -620,7 +620,7 @@ background: #dcd0c0;
         display:flex;
         flex-flow: row;
         justify-content: space-around;
-        background: #dcd0c0;
+        background: #c0b283;
       }
 
       .tab label{
