@@ -509,14 +509,6 @@ img{
   color: #c0b283;
 }
 
-.contactform a:visited {
-  color: #c0b283;
-}
-
-.contactform a:link {
-  color: #c0b283;
-}
-
 @media all and (min-width: 600px){
 
   .aff-1 h4{
