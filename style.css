@@ -535,7 +535,11 @@ text-decoration: none;
 .blogpostone input{
 
   font-family: "Lato", sans-serif;
-  font-style: bold;
+
+}
+
+.blogpostone p{
+  font-family: 'Quattrocento', serif;
 }
 
 .blogpostone button{
