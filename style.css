@@ -185,6 +185,10 @@ nav a {
   padding:0px;
 }
 
+.studentmail a{
+  color: #a76b29;
+}
+
 .tab-content a{
   background:#dcd0c0;
   text-decoration: none;
@@ -569,7 +573,13 @@ iframe{
   display: flex;
   flex-flow: column;
 }
+
+.school a{
+  color:#a76b29;
+}
 @media all and (min-width: 600px){
+
+
 
   .aboutuniversity img {
     display: none;
@@ -579,6 +589,7 @@ iframe{
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    justify-content: center;
   }
 
   .logo img {
@@ -1036,6 +1047,11 @@ margin-left: 60px;
 }/*end min-wide 600px*/
 
 @media all and (min-width:800px){
+
+  .school{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 .mobilehead{
   display:none;
 }
