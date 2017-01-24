@@ -564,8 +564,93 @@ iframe{
   display: block;
   margin: auto;
 }
+
+.aboutuniversity {
+  display: flex;
+  flex-flow: column;
+}
 @media all and (min-width: 600px){
 
+  .aboutuniversity img {
+    display: none;
+  }
+
+  .aboutuniversity {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .logo img {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    margin: 15px;
+    width: 30%;
+  }
+
+  .logo-1 img {
+    width: 185px;
+    height: auto;
+  }
+
+  .logo-2 img {
+    width: 185px;
+    height: auto;
+  }
+
+  .logo-3 img {
+    width: 185px;
+    height: auto;
+  }
+
+  .logo-4 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-5 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-6 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-7 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-8 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-9 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-10 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-11 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-12 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-13 img {
+    width: 185px;
+    height: auto;
+  }
+  .logo-14 img {
+    width: 185px;
+    height: auto;
+  }
 
   .aff-1 h4{
     color: black;
