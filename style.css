@@ -565,6 +565,12 @@ text-decoration: none;
   color: white;
   font-family: 'Quattrocento', serif;
 }
+
+iframe{
+  padding-top: 2em;
+  display: block;
+  margin: auto;
+}
 @media all and (min-width: 600px){
 
 
