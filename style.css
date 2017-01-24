@@ -750,32 +750,63 @@ background: #dcd0c0;
 
 .schools{
   display:flex;
-  flex-flow:row wrap;
-  justify-content:space-around;
-  width: 100%;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0;
 }
 
-.schoolscolumn{
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-
-}
-
-.lawschool{
-  width: 50%;
-  display: flex wrap;
-  padding-bottom: 2em;
-}
 
   .schools img{
     display: flex;
-    flex-flow: row wrap;
     padding-bottom: 10px;
   }
 
 
+.law-1{
+  width: 200px;
+}
 
+.law-2{
+  width: 200px;
+}
+
+.law-3{
+  width: 200px;
+}
+.law-4{
+  width: 200px;
+}
+.law-5{
+  width: 200px;
+}
+.law-6{
+  width: 200px;
+}
+.law-7{
+  width: 200px;
+}
+.law-8{
+  width: 200px;
+}
+.law-9{
+  width: 200px;
+}
+.law-10{
+  width: 200px;
+}
+.law-11{
+  width: 200px;
+}
+.law-12{
+  width: 200px;
+}
+.law-13{
+  width: 200px;
+}
+.law-14{
+  width: 200px;
+}
 
   .law-1 img{
     width: 185px;
