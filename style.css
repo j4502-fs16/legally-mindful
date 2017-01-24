@@ -474,6 +474,10 @@ img{
   background: white;
 }
 
+.documentdatabase a{
+  text-decoration: none;
+}
+
 .resourcewrapper h3 {
   padding: .6rem;
   margin: .2rem;
