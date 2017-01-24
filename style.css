@@ -115,6 +115,13 @@ nav a {
     padding-left: 25px;
 }
 
+.schools a{
+  color: #a76b29;
+}
+
+.schools a:hover{
+  background: #dcd0c0;
+}
 
 .menu-trigger {
   order: 1;
@@ -560,6 +567,7 @@ text-decoration: none;
 }
 @media all and (min-width: 600px){
 
+
   .aff-1 h4{
     color: black;
     font-size: 1.1rem;
@@ -739,6 +747,22 @@ background: #dcd0c0;
 .founder2{
   display:flex;
 }
+
+.schools{
+  display:flex;
+  flex-flow: wrap;
+}
+
+.schools{
+  margin-left: 2em;
+}
+  .schools{
+    display:flex;
+  }
+
+  .schools img{
+    display: flex;
+  }
 
 .aboutdirectors {
   display: flex;
