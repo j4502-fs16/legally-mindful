@@ -750,10 +750,11 @@ background: #dcd0c0;
 
 .schools{
   display:flex;
-  flex-flow: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: flex-end;
   justify-content: center;
   margin:0;
+  align-items: center;
 }
 
 
@@ -763,49 +764,64 @@ background: #dcd0c0;
   }
 
 
+
 .law-1{
   width: 200px;
+  padding-bottom: 3em;
 }
 
 .law-2{
   width: 200px;
+  padding-bottom: 3em;
 }
 
 .law-3{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-4{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-5{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-6{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-7{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-8{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-9{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-10{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-11{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-12{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-13{
   width: 200px;
+  padding-bottom: 3em;
 }
 .law-14{
   width: 200px;
+  padding-bottom: 3em;
 }
 
   .law-1 img{
