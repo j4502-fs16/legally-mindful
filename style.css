@@ -751,8 +751,8 @@ background: #dcd0c0;
 
     .mainnav li{
       border: none;
-      padding: .2rem;
-      font-size: 1.3rem;
+      
+
       background: #373737;
       color: white;
 
@@ -767,7 +767,7 @@ background: #dcd0c0;
     .mainnav a:hover {
       background:#dcd0c0;
       color: white;
-      padding: 5px;
+
     }
 
     .tab-group{
