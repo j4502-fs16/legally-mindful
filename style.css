@@ -572,11 +572,6 @@ text-decoration: none;
   font-family: 'Quattrocento', serif;
 }
 
-iframe{
-  padding-top: 2em;
-  display: block;
-  margin: auto;
-}
 
 .aboutuniversity {
   display: flex;
@@ -588,8 +583,11 @@ iframe{
 }
 
 
-.videowrapper {
-  height: 200%;
+.videocontainer{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+
 }
 
 .videowrapper{
@@ -598,6 +596,7 @@ iframe{
   padding-top:30px;
   height:0;
   overflow:hidden;
+
 }
 
 .videowrapper iframe {
@@ -608,7 +607,42 @@ iframe{
   height:100%;
 }
 
+.blogframe{
+  display: block;
+  align: center;
+  position: relative;
+  padding-bottom:56.25%;
+
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+
+
+}
+
+.blogframe iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
 @media all and (min-width: 600px){
+
+
+
+
+.blogframe{
+  max-width: 599px;
+  display: block;
+margin:auto;
+}
+
+
+
+
 
 
 
@@ -1078,6 +1112,8 @@ margin-left: 60px;
 }/*end min-wide 600px*/
 
 @media all and (min-width:800px){
+
+
 
   .school{
     margin-left: 1em;
