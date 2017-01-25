@@ -83,20 +83,27 @@ h1{
 
 }
 
+nav{
+  padding: 0;
+  margin: 0:
+}
+
 .mainnav{
   display: none;
   list-style-type: none;
-  font-size:1.4em;
-  line-height:2em;
+  font-size:1em;
+  line-height:1.6em;
   padding:0;
   text-align:center;
   margin: 0;
+
 }
 
 .mainnav li{
   /*display:none;*/
-  border-bottom:1px solid black;
-  font-family: 'Quattrocento', sans-serif;
+  border-bottom:1.5px solid #a76b29;
+  font-family: 'lato', sans-serif;
+
 }
 
 .mainnav a{
@@ -109,6 +116,7 @@ h1{
 
 nav ul li {
     display: block;
+
 
 }
 
@@ -123,9 +131,9 @@ nav a {
 
 .menu-trigger {
   order: 1;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .menu-trigger:after {
@@ -231,7 +239,7 @@ h2{
   background-color: #373737;
   color: white;
   border-top: none;
-  margin-left: 10px;
+
   margin-top: 40px;
   padding: 3px;
 
@@ -633,6 +641,61 @@ text-decoration: none;
 
 @media all and (min-width: 600px){
 
+  nav ul{
+      display:none;
+    }
+
+    nav ul li{
+      border-top:none;
+    }
+
+.menu-trigger {
+  display: none;
+}
+
+nav a{
+  padding:0;
+}
+
+  .mainnav{
+      display: flex;
+      flex-flow: row;
+      justify-content: space-around;
+      background: #373737;
+      color: white;
+    }
+
+    .mainnav li{
+      border: none;
+
+padding-bottom: 4px;
+padding-top: 4px;
+      background: #373737;
+      color: white;
+
+
+    }
+
+    .mainnav a{
+      color: white;
+      background: #373737;
+      width: 100%;
+
+    }
+
+.mainnav li:hover{
+  background:#dcd0c0;
+  color: #373737;
+
+}
+
+    .mainnav a:hover {
+      background:#dcd0c0;
+      color: #373737;
+
+    }
+
+
 .videocontainer{
   display: block;
 margin:auto;
@@ -778,52 +841,12 @@ margin:auto;
 background: #dcd0c0;
 }
 
-  nav ul{
-      display:none;
-    }
-
-    nav ul li{
-      border-top:none;
-    }
-
-.menu-trigger {
-  display: none;
+.header{
+  display: block;
+  background: #c0b283;
 }
 
-  .header{
-    display: block;
-    background: #c0b283;
-  }
 
-
-  .mainnav{
-      display: flex;
-      flex-flow: row;
-      justify-content: space-around;
-      background: #373737;
-      color: white;
-    }
-
-    .mainnav li{
-      border: none;
-
-
-      background: #373737;
-      color: white;
-
-    }
-
-    .mainnav a{
-      color: white;
-      background: #373737;
-      width: 100%;
-    }
-
-    .mainnav a:hover {
-      background:#dcd0c0;
-      color: white;
-
-    }
 
     .tab-group{
         display:flex;
@@ -1014,6 +1037,7 @@ background: #dcd0c0;
 h4 {
   margin: 0;
 }
+/*
 
 .mainnav{
   list-style-type: none;
@@ -1027,8 +1051,10 @@ h4 {
 
 }
 
+
+
 .mainnav li{
-  /*display:none;*/
+  /*display:none;
   border-top:1px solid black;
   border-bottom:1px solid black;
   background: #373737;
@@ -1051,7 +1077,7 @@ nav a {
     display: block;
     text-decoration: none;
 }
-
+*/
 .story img {
   width: 70;
   height: 70;
