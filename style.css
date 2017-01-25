@@ -586,6 +586,28 @@ iframe{
 .school a{
   color:#a76b29;
 }
+
+
+.videowrapper {
+  height: 200%;
+}
+
+.videowrapper{
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.videowrapper iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
 @media all and (min-width: 600px){
 
 
@@ -751,7 +773,7 @@ background: #dcd0c0;
 
     .mainnav li{
       border: none;
-      
+
 
       background: #373737;
       color: white;
