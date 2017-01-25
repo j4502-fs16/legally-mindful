@@ -587,6 +587,7 @@ text-decoration: none;
   display:flex;
   flex-flow: column;
   justify-content: center;
+  max-width: 600px;
 
 }
 
@@ -596,6 +597,7 @@ text-decoration: none;
   padding-top:30px;
   height:0;
   overflow:hidden;
+
 
 }
 
@@ -631,7 +633,10 @@ text-decoration: none;
 
 @media all and (min-width: 600px){
 
-
+.videocontainer{
+  display: block;
+margin:auto;
+}
 
 
 .blogframe{
@@ -639,12 +644,6 @@ text-decoration: none;
   display: block;
 margin:auto;
 }
-
-
-
-
-
-
 
   .aboutuniversity img {
     display: none;
