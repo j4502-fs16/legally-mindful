@@ -284,7 +284,7 @@ img{
 
   h3{
     border-bottom:2px solid #373737;
-    font-family: 'Quattrocento', sans-serif;
+    font-family: 'lato', sans-serif;
     font-weight: bold;
     font-size: 1.6em;
     margin: 10px;
@@ -305,6 +305,10 @@ img{
     margin: 10px;
     padding-top: 10px;
     color:black;
+  }
+
+  h5 a{
+    color:
   }
 
   .summary1 h2:hover{
@@ -484,7 +488,7 @@ img{
 .documentdatabase h3:hover {
   color: #c0b283;
   background: white;
-} 
+}
 
 .documentdatabase a{
   text-decoration: none;
