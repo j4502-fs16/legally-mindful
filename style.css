@@ -85,7 +85,48 @@ h1{
 
 
 
+.mainnav{
+  display: none;
+  list-style-type: none;
+  font-size:1em;
+  line-height:1.6em;
+  padding:0;
+  text-align:center;
+  margin: 0;
 
+}
+
+.mainnav li{
+  /*display:none;*/
+  /*
+  border-bottom:1.5px solid #a76b29; */
+  font-family: 'lato', sans-serif;
+  text-align: left;
+
+}
+
+.mainnav a{
+  text-decoration: none;
+  color: #373737;
+  background-color: white;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+nav ul li {
+    display: block;
+
+
+}
+
+nav a {
+    color: white;
+    background-color: #373737;
+    display: block;
+    text-decoration: none;
+    padding-left: 25px;
+}
 
 
 .menu-trigger {
@@ -633,70 +674,15 @@ text-decoration: none;
   height:100%;
 }
 
-.mainnav{
-  display: none;
-  list-style-type: none;
-  font-size:1em;
-  line-height:1.6em;
-  padding:0;
-  text-align:center;
-  margin: 0;
-
-}
-
-.mainnav li{
-  /*display:none;*/
-
-
-  font-family: 'lato', sans-serif;
-  text-align: left;
-  background:#d9d0b4;
-  margin-right: 16em;
-  padding-left: 5px;
-
-
-}
-
-.mainnav a{
-  text-decoration: none;
-  color: black;
-background: white;
-  font-weight: bold;
-  text-align: left;
-  padding-right: 20px;
-  padding-bottom: 5px;
-  background:#d9d0b4;
-
-
-}
-
-nav ul li {
-    display: block;
-
-
-}
-
-nav a {
-    color: white;
-    background-color: #373737;
-    display: block;
-    text-decoration: none;
-    padding-left: 25px;
-}
-
 /*===========dropdown========*/
 
 ul {
     list-style-type: none;
-
+    margin: 0;
     padding: 0;
     overflow: hidden;
 
 
-}
-
-.moveover{
-  text-align: left;
 }
 
 
@@ -710,22 +696,18 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #c0b283;
+    background-color: purple;
 }
 
 li.dropdown {
     display: inline-block;
 
-}
 
-.dropdown a{
-  padding-right: 4em;
 }
 
 .dropdown-content {
     display: none;
-
-    text-align: right;
+    position: absolute;
 
     min-width: 160px;
 
@@ -734,19 +716,13 @@ li.dropdown {
 
 .dropdown-content a {
     color: black;
-font-family: 'lato', sans-serif;
+
     text-decoration: none;
     display: block;
     text-align: left;
-    font-size: .85em;
-    background:white;
-    padding-right: 2em;
 }
 
-.dropdown-content a:hover {
-  text-decoration: underline;
-  margin-right: 16em;
-}
+.dropdown-content a:hover {background-color: pink}
 
 .show {display:block;}
 
