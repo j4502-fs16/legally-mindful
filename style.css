@@ -494,7 +494,23 @@ img{
   background-color: #c0b283;
 }
 
+.resourcewrapper-1 h3 {
+  padding: .6rem;
+  margin: .2rem;
+  margin-left: 4rem;;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #c0b283;
+}
+
 .resourcewrapper h3:hover{
+  background-color: white;
+  color: #c0b283;
+}
+
+.resourcewrapper-1 h3:hover{
   background-color: white;
   color: #c0b283;
 }
@@ -1087,6 +1103,12 @@ nav a {
   justify-content: space-around;
 }
 
+.resourcewrapper-1{
+  display: flex;
+  flex-flow: row nonwrap;
+  justify-content: space-around;
+}
+
 .resourcewrapper h3 {
   padding: .6rem;
   margin: .2rem;
@@ -1098,10 +1120,29 @@ nav a {
   background-color: #c0b283;
 }
 
+.resourcewrapper-1 h3 {
+  padding: .6rem;
+  margin: .2rem;
+  margin-left: 4rem;;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #c0b283;
+}
+
+
 .resourcewrapper h3:hover{
   background-color: white;
   color: #c0b283;
 }
+
+
+.resourcewrapper-1 h3:hover{
+  background-color: white;
+  color: #c0b283;
+}
+
 
 .documentdatabase h3{
   text-align: center;
@@ -1118,6 +1159,15 @@ margin-left: 60px;
 }
 
 .resourcewrapper h3 {
+  padding: .6rem;
+  margin: .2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #c0b283;
+}
+
+.resourcewrapper-1 h3 {
   padding: .6rem;
   margin: .2rem;
   text-align: center;
