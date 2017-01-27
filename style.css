@@ -577,9 +577,11 @@ text-decoration: none;
 
 
 .aboutuniversity {
-  display: flex;
-  flex-flow: column;
+  display: block;
+
 }
+
+
 
 .school a{
   color:#a76b29;
@@ -792,7 +794,7 @@ nav a{
     nav a {
         color: white;
         background-color: #373737;
-        
+
       }
 
       .dropdown a{
@@ -876,27 +878,42 @@ margin:auto;
 margin:auto;
 }
 
+/*
   .aboutuniversity img {
     display: none;
   }
 
   .aboutuniversity {
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
+    margin: auto;
     width: 100%;
     justify-content: center;
   }
 
   .logo img {
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
+    margin: auto;
     padding-bottom: 10px;
-  }
+  } */
 
   .logo {
-    margin: 15px;
-    width: 30%;
+    display: block;
+    text-align: center;
+    padding-bottom: 2em;
+
+
   }
+
+.centertext p{
+  display: block;
+  text-align: center;
+}
+
+  .logo img{
+    display: block;
+    margin: auto;
+  }
+
 
   .logo-1 img {
     width: 185px;
