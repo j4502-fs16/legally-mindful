@@ -756,6 +756,21 @@ li.dropdown {
 }
 
 
+.cheesebox h3{
+  border: none;
+
+  padding-bottom: 8px;
+  margin-left:1em;
+  margin-right: 1em;
+  padding-left: 1em;
+
+}
+
+.cheesedatabase a{
+  color:blue;
+}
+
+
 
 
 @media all and (min-width: 600px){
@@ -1272,7 +1287,7 @@ nav a {
 .resourcewrapper{
   display: flex;
   flex-flow: row nonwrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .resourcewrapper-1{
