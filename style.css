@@ -771,7 +771,9 @@ li.dropdown {
 }
 
 
-
+.mainnav{
+  display:none;
+}
 
 @media all and (min-width: 600px){
 
