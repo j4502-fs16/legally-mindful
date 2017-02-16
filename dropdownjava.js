@@ -16,12 +16,12 @@ if (   $(window).width() > 600 ){
 
 $(document).ready(function() {
   $('.about-trigger').click(function() {
-    $('ul').slideToggle(600);
+    $('.about ul').slideToggle(600);
 });
 
 $(window).resize(function(){
 if (   $(window).width() > 600 ){
-  $('ul').removeAttr('style');
+  $('.about ul').removeAttr('style');
 }
 });
 });
