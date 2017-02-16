@@ -10,8 +10,30 @@ if (   $(window).width() > 600 ){
 });
 });
 
+
+
+
+
+$(document).ready(function() {
+  $('.about-trigger').click(function() {
+    $('ul').slideToggle(600);
+});
+
+$(window).resize(function(){
+if (   $(window).width() > 600 ){
+  $('ul').removeAttr('style');
+}
+});
+});
+
+
+
+
+
+
+
 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+toggle between hiding and showing the dropdown content
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -29,3 +51,4 @@ window.onclick = function(e) {
     }
   }
 }
+*/
