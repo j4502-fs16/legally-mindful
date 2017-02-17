@@ -1481,7 +1481,14 @@ margin-left: 60px;
 
 @media all and (min-width:800px){
 
+  .body {
+    width: 900px;
+    margin: 0 auto;
+  }
 
+.footer{
+  width: 100%;
+}
 
   .school{
     margin-left: 1em;
@@ -1520,10 +1527,7 @@ font-family: 'Quattrocento', sans-serif;
 
     }
 
-    body {
-      width: 1026px;
-      margin: 0 auto;
-    }
+
 
 .mobilehead{
   display:none;
