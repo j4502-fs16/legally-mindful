@@ -1428,6 +1428,7 @@ margin-left: 60px;
   width: 400px;
 }
 
+/*
 .swirls img{
   display: block;
   width: 10rem;
@@ -1441,6 +1442,9 @@ margin-left: 60px;
   justify-content: space-around;
 }
 
+.swirls{
+  display:flex;
+} */
 
 
 
