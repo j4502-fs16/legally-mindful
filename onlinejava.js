@@ -1,45 +1,77 @@
-/*
-	By Osvaldas Valutis, www.osvaldas.info
-	Available for use under the MIT License
-*/
+//desktop main menu
+$(document).ready(function() {
+  $('.parents-1').click(function() {
+    $('.sub-1').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-1').removeAttr('style');
+     }
+    });
+});
+
+$(document).ready(function() {
+  $('.parents-2').click(function() {
+    $('.sub-2').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-2').removeAttr('style');
+     }
+    });
+});
+
+$(document).ready(function() {
+  $('.parents-3').click(function() {
+    $('.sub-3').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-3').removeAttr('style');
+     }
+    });
+});
+
+
+$(document).ready(function() {
+  $('.parents-4').click(function() {
+    $('.sub-4').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-4').removeAttr('style');
+     }
+    });
+});
 
 
 
-;(function( $, window, document, undefined )
-{
-	$.fn.doubleTapToGo = function( params )
-	{
-		if( !( 'ontouchstart' in window ) &&
-			!navigator.msMaxTouchPoints &&
-			!navigator.userAgent.toLowerCase().match( /windows phone os 7/i ) ) return false;
+//hamburger menu
 
-		this.each( function()
-		{
-			var curItem = false;
 
-			$( this ).on( 'click', function( e )
-			{
-				var item = $( this );
-				if( item[ 0 ] != curItem[ 0 ] )
-				{
-					e.preventDefault();
-					curItem = item;
-				}
-			});
+//Loads when the javascript has loaded. when menu-trigger is clicked the function slide toggle occurs. THe 500 is the length of the animation.
 
-			$( document ).on( 'click touchstart MSPointerDown', function( e )
-			{
-				var resetItem = true,
-					parents	  = $( e.target ).parents();
+$(document).ready(function() {
+  $('.menu-trigger').click(function() {
+    $('.mainnav').slideToggle(500);
+  });//end slide toggle
 
-				for( var i = 0; i < parents.length; i++ )
-					if( parents[ i ] == curItem[ 0 ] )
-						resetItem = false;
+//When window is resized, the display:none is turned off for the ul so the menu displays on click or touch.
+  $(window).resize(function() {
+	   if (  $(window).width() > 600 ) {
+		$('.mainnav').removeAttr('style');
+	 }
+	});//end resize
+});//end ready
 
-				if( resetItem )
-					curItem = false;
-			});
-		});
-		return this;
-	};
-})( jQuery, window, document );
+$(document).ready(function() {
+  $('.site').click(function() {
+    $('nav ul').slideToggle(500);
+  });
+});
+
+$(document).ready(function() {
+  $('#year').click(function(){
+    $('.nav2').slideToggle(500);
+  });
+});
