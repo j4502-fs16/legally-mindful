@@ -232,14 +232,17 @@ nav a:hover{
 .mainnav{
   display: flex;
   justify-content: center;
-  background-color: #373737
-  ;
+  background-color: #373737;
 }
 
 .parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
   font-size: 1em;
+
 }
 
+li {
+  width: 16.6666667%;
+}
 
 
 
