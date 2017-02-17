@@ -1209,47 +1209,7 @@ background: #dcd0c0;
 h4 {
   margin: 0;
 }
-/*
 
-.mainnav{
-  list-style-type: none;
-  font-size:.9em;
-  line-height:2em;
-  padding:0;
-  text-align:center;
-  display: flex;
-  flex-flow: row;
-  flex-wrap: nowrap;
-
-}
-
-
-
-.mainnav li{
-  /*display:none;
-  border-top:1px solid black;
-  border-bottom:1px solid black;
-  background: #373737;
-  font-family: 'Quattrocento', sans-serif;
-}
-
-.mainnav a{
-  text-decoration: none;
-  color: white;
-
-}
-
-nav ul li {
-    display: block;
-
-}
-
-nav a {
-    color: #c0b283;
-    display: block;
-    text-decoration: none;
-}
-*/
 .story img {
   width: 70;
   height: 70;
@@ -1270,35 +1230,8 @@ nav a {
 
 }
 
-.doc-1{
-
-
-
-}
-
-.doc-2{
-
-
-}
-
-
-
-
-
-
-
-
 .resourcewrapper h3 {
 text-align: center;
-  /*
-  padding: .6rem;
-  margin: .2rem;
-  margin-left: 4rem;;
-  margin-right: 4rem;
-  color: white;
-  font-size: 1rem;
-
-  background-color: #c0b283;*/
 }
 
 
@@ -1306,72 +1239,20 @@ text-align: center;
 .resourcewrapper-1 h3 {
     color: white;
 text-align: center;
-
-  /*
-  padding: .6rem;
-  margin: .2rem;
-  margin-left: 4rem;;
-  margin-right: 4rem;
-  text-align: center;
-  font-size: 1rem;
-
-  color: white;
-  background-color: #c0b283; */
 }
-
-/*
-.resourcewrapper h3:hover{
-  background-color: white;
-  color: #c0b283;
-}
-
-
-.resourcewrapper-1 h3:hover{
-  background-color: white;
-  color: #c0b283;
-} */
 
 
 .documentdatabase h3{
   text-align: center;
-  /*
-  background: #c0b283;
-  color:white;
-  */
   font-family: "Lato", sans-serif;
-  /*
-  border: none;
-margin-right: 60px;
-margin-left: 60px;
-  font-size: 2rem;
-  border: none;
-  padding-bottom: 20px;
-  padding-top: 20px; */
 }
 
 .resourcewrapper h3 {
   text-align: center;
-  /*
-  padding: .6rem;
-  margin: .2rem;
 
-  font-size: 1.8rem;
-
-  color: white;
-  background-color: #c0b283; */
 }
 
-.resourcewrapper-1 h3 {
-    text-align: center;
-    /*
-  padding: .6rem;
-  margin: .2rem;
 
-  font-size: 1.8rem;
-
-  color: white;
-  background-color: #c0b283; */
-}
 
 
 .doc-3 h3{
@@ -1418,7 +1299,7 @@ margin-left: 60px;
 }
 
 .resource3{
-  width: 250px;
+  width: 400px;
 }
 
 .resource2{
