@@ -195,10 +195,10 @@ h2{
 
 
 .footer{
-  background-color: #373737;
-  color: white;
-  border-top: none;
 
+  color: #373737;
+  border-top: 1px solid #373737;
+text-align: right;
   margin-top: 40px;
   padding: 3px;
 
@@ -1486,9 +1486,7 @@ margin-left: 60px;
     margin: 0 auto;
   }
 
-.footer{
-  width: 100%;
-}
+
 
   .school{
     margin-left: 1em;
@@ -1497,26 +1495,30 @@ margin-left: 60px;
 .mobilehead{
   display:none;
 }
-    .image-wrapper {
-      display: block;
-        position: relative;
-        width: 100%;
 
-    }
-    .image-wrapper h1 {
-        position: absolute;
-        text-align: center;
+
+
+.image-wrapper {
+  display: block;
+    position: relative;
+    width: 100%;
+
+}
+.image-wrapper h1 {
+    position: absolute;
+    text-align: center;
 font-family: 'Quattrocento', sans-serif;
-        top: 50px;
-        padding: 10px;
-        font-size: 35px;
+    top: 50px;
+    padding: 10px;
+    font-size: 35px;
 
-        width: 100%;
-        color: white;
-        margin: 5px;
+    width: 100%;
+    color: white;
+    margin: 5px;
 
 }
 }
+
 
   @media all and (min-width:1140px) {
 
@@ -1525,6 +1527,10 @@ font-family: 'Quattrocento', sans-serif;
       width: 1026px;
       margin: 0 auto;
 
+    }
+    body {
+      width: 1026px;
+      margin: 0 auto;
     }
 
 
