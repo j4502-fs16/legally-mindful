@@ -1,19 +1,31 @@
 $(document).ready(function() {
   $('.menu-trigger').click(function() {
-    $('nav ul').slideToggle(600);
+    $('.mainnav').slideToggle(600);
 });
 
 $(window).resize(function(){
 if (   $(window).width() > 600 ){
-  $('nav ul').removeAttr('style');
+  $('.mainnav').removeAttr('style');
 }
 });
 });
 
 
 
+$(document).ready(function() {
+  $('.parents-1').click(function() {
+    $('.sub-1').slideToggle(500);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-1').removeAttr('style');
+     }
+    });
+});
 
 
+
+/*
 $(document).ready(function() {
   $('.about-trigger').click(function() {
     $('.about li').slideToggle(600);
