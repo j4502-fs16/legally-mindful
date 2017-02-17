@@ -841,7 +841,7 @@ nav a:hover{
      }
 
      li a:hover{
-       background-color: #c0b283;
+       background-color: #dcd0c0;
      }
 
 
@@ -1456,7 +1456,9 @@ margin-left: 60px;
     margin: 0 auto;
   }
 
-
+  li a:hover{
+    background-color: #c0b283;
+  }
 
   .school{
     margin-left: 1em;
