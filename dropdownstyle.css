@@ -168,7 +168,7 @@ nav a {
 }
 
 nav {
-  background-color: orange;
+  background-color: white;
   padding: 0;
   margin: 0;
 }
@@ -230,46 +230,34 @@ nav a:hover{
 
 .mainnav{
   display: flex;
+  justify-content: center;
 }
 
-/*
-  .mainnav{
-      display: flex;
-      flex-flow: row nonwrap;
-      justify-content: flex-start;
-
-      color: white;
-      margin-top: 0;
-      padding-top: 5px;
-      padding-bottom: none;
+.parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
+  font-size: 1em;
+}
 
 
-    }
-    */
-
-    .sub-1{
-
-    	margin-left: 0px;
-
-
-    }
-
-
-
-    .parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
-
-    	border-bottom: none;
-      margin-bottom: 1px;
-      font-size: 1em;
-    flex-basis: auto;
-    }
 
     nav a{
-      background-color: #373737;
+      padding: 0;
     }
 
+    li a{
+      background-color: green;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      text-align: center;
 
+    }
 
+    li a:hover{
+      background-color: pink;
+    }
+
+.parents-1 li a{
+  background-color: orange;
+}
     /*
 
     nav a {
