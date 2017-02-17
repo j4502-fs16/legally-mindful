@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.menu-trigger').click(function() {
-    $('.mainnav').slideToggle(600);
+    $('.mainnav').slideToggle(300);
 });
 
 $(window).resize(function(){
@@ -14,7 +14,7 @@ if (   $(window).width() > 600 ){
 
 $(document).ready(function() {
   $('.parents-1').click(function() {
-    $('.sub-1').slideToggle(500);
+    $('.sub-1').slideToggle(300);
   });
   $(window).resize(function() {
        if (  $(window).width() > 600 ) {
