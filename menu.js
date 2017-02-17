@@ -1,17 +1,51 @@
 $(document).ready(function() {
   $('.menu-trigger').click(function() {
-    $('nav ul').slideToggle(600);
+    $('.mainnav').slideToggle(300);
 });
 
 $(window).resize(function(){
 if (   $(window).width() > 600 ){
-  $('nav ul').removeAttr('style');
+  $('.mainnav').removeAttr('style');
 }
 });
 });
 
+
+
+$(document).ready(function() {
+  $('.parents-1').click(function() {
+    $('.sub-1').slideToggle(300);
+  });
+  $(window).resize(function() {
+       if (  $(window).width() > 600 ) {
+        $('.sub-1').removeAttr('style');
+     }
+    });
+});
+
+
+
+/*
+$(document).ready(function() {
+  $('.about-trigger').click(function() {
+    $('.about li').slideToggle(600);
+});
+
+$(window).resize(function(){
+if (   $(window).width() > 600 ){
+  $('.about li').removeAttr('style');
+}
+});
+});
+
+
+
+
+
+
+
 /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+toggle between hiding and showing the dropdown content
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -29,3 +63,4 @@ window.onclick = function(e) {
     }
   }
 }
+*/
