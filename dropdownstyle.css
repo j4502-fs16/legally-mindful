@@ -79,15 +79,15 @@ h1{
 }
 
 .about-trigger{
-  background: #373737;
+  background: #dcd0c0;
 }
 
 .about-trigger:after {
-  font-family: 'Quattrocento', sans-serif;
-  color: white;
-  background-color: #373737;
+  font-family: 'Lato', sans-serif;
+  color: #373737;
+  background-color: #dcd0c0;
   content: "About";
-  font-size: .8em;
+  font-size: 1.2em;
   padding: 3px;
 }
 
@@ -107,7 +107,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  overflow: hidden;
+
 
 }
 
@@ -129,6 +129,10 @@ li {
   background-color: purple;
 }
 
+.about{
+  display:none;
+}
+
 .about li{
 text-align: left;
 border-bottom: 2px solid white;
@@ -143,9 +147,7 @@ width: 100%;
   display:none;
 }
 
-.about{
-  display:none;
-}
+
 
 @media all and (min-width: 600px){
 
