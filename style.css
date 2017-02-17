@@ -1337,10 +1337,14 @@ text-align: center;
 @media all and (min-width:800px){
 
   .body {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
   }
 
+.boardbody{
+  width 900;
+  
+}
   li a:hover{
     background-color: #c0b283;
   }
