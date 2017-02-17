@@ -228,10 +228,12 @@ nav a:hover{
    display: none;
  }
 
+
 .mainnav{
   display: flex;
   justify-content: center;
-  background-color: green;
+  background-color: #373737
+  ;
 }
 
 .parents, .parents-1, .parents-2, .parents-3, .parents-4, .parents-5 {
@@ -240,12 +242,14 @@ nav a:hover{
 
 
 
+
+
     nav a{
       padding: 0;
     }
 
     li a{
-      background-color: green;
+      background-color: #373737;
       padding-top: 8px;
       padding-bottom: 8px;
       text-align: center;
@@ -253,13 +257,14 @@ nav a:hover{
     }
 
     li a:hover{
-      background-color: pink;
+      background-color: #c0b283;
     }
 
 
 
 .parents-1 li a{
-  background-color: orange;
+  background-color: #373737;
+  text-align: center;
 }
     /*
 
