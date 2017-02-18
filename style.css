@@ -178,10 +178,13 @@ h2{
 .footer{
 
   color: #373737;
-  border-top: 1px solid #373737;
+
+
 text-align: right;
-  margin-top: 40px;
-  padding: 3px;
+font-size: .5em;
+
+
+
 
 }
 
@@ -1342,9 +1345,11 @@ text-align: center;
   }
 
 .boardbody{
-  width 900;
-  
+  width: 900px;
+
 }
+
+
   li a:hover{
     background-color: #c0b283;
   }
@@ -1393,6 +1398,8 @@ font-family: 'Quattrocento', sans-serif;
       width: 1026px;
       margin: 0 auto;
     }
+
+
 
 
 
