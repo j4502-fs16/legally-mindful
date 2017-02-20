@@ -410,6 +410,13 @@ img{
   padding-left: 20px;
 }
 
+.founder3 img{
+  width: 165px;
+  height: 170px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 .documentdatabase h3{
   text-align: center;
   background: #c0b283;
@@ -1090,11 +1097,20 @@ background: #dcd0c0;
   padding-top: 20px;
 }
 
+
 .founder2 img{
   width: 165;
   height:170;
   float: left;
   padding-top: 20px;
+}
+
+.founder3 img{
+  width: 375px;
+  height: 170px;
+  float: left;
+  padding-top: 20px;
+
 }
 
 .founder1{
@@ -1106,6 +1122,9 @@ background: #dcd0c0;
   display:flex;
 }
 
+.founder3{
+  display:flex;
+}
 
 .aboutdirectors {
   display: flex;
