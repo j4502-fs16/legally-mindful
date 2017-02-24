@@ -1131,6 +1131,8 @@ background: #dcd0c0;
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+  justify-content: center;
+
 }
 
 .directors img {
@@ -1361,7 +1363,7 @@ text-align: center;
 @media all and (min-width:800px){
 
   .body {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
   }
 
@@ -1369,6 +1371,9 @@ text-align: center;
   width: 900px;
 
 }
+
+
+
 
 
   li a:hover{
@@ -1418,6 +1423,19 @@ font-family: 'Quattrocento', sans-serif;
     body {
       width: 1026px;
       margin: 0 auto;
+    }
+
+    .boardbody h3{
+      margin-left: 4em;
+    }
+
+    .aboutdirectors {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+      justify-content: center;
+      margin-left: 5.5em;
+
     }
 
 
