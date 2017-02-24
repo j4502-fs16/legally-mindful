@@ -236,6 +236,7 @@ img{
     margin: 10px;
     padding-top: 10px;
     color:black;
+    max-width: 800px;
   }
 
   h4{
